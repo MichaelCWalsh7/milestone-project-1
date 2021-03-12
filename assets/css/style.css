@@ -1,4 +1,4 @@
-/* ===========TEMPORARY CODE FOR A STICKY FOOTER */
+/* ================================TEMPORARY CODE FOR A STICKY FOOTER */
 
 html {
   height: 100%;
@@ -13,5 +13,49 @@ body {
   grid-row-end: 3;
 }
 
-/* ===========TEMPORARY CODE FOR A STICKY FOOTER */
+/* ================================TEMPORARY CODE FOR A STICKY FOOTER */
 
+
+
+/* ===========================Navbar================================= */
+
+#navbar-head {
+    padding: 0;
+    background-color: #474747;
+    }
+
+.navbar-brand {
+    margin-right: 0;
+}
+
+.navbar-light .navbar-brand, .navbar-brand {
+    background-color: #960018;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 0, auto;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    }
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: #80FAF3;
+}
+
+.navbar {
+    padding-top: 0;
+}
+
+.navbar-nav {
+    width: 100%;
+}
+
+.navbar-nav .nav-item {
+    width: 25%;
+    text-align: center;
+    border: 2px solid ivory;
+    border-top: none;
+    border-bottom: none;    
+}
