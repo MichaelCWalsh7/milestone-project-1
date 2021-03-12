@@ -19,6 +19,7 @@ body {
 
 /* ===========================Navbar================================= */
 
+
 #navbar-head {
     padding: 0;
     background-color: #474747;
@@ -31,10 +32,9 @@ body {
 .navbar-light .navbar-brand, .navbar-brand {
     background-color: #960018;
     color: white;
-    text-align: center;
-    padding: 20px;
+    text-align: center;    
     margin: 0, auto;
-}
+   }
 
 .navbar-light .navbar-nav .nav-link {
     color: white;
@@ -57,5 +57,5 @@ body {
     text-align: center;
     border: 2px solid ivory;
     border-top: none;
-    border-bottom: none;    
+    border-bottom: none;
 }
