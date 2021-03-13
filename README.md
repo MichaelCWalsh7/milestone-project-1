@@ -1,3 +1,9 @@
+font-family: 'Lato', sans-serif;
+font-family: 'Parisienne', cursive;
+font-family: 'Shippori Mincho', serif;
+
+
+
 <h1 align="center">My Personal Website</h1>
 
 [View the live project here.(This link has not yet been added.)](MichaelWalsh.com)

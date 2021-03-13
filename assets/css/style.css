@@ -23,7 +23,8 @@ body {
 #navbar-head {
     padding: 0;
     background-color: #474747;
-    }
+    letter-spacing: 1px;
+}
 
 .navbar-brand {
     margin-right: 0;
@@ -35,20 +36,31 @@ body {
     text-align: center;    
     margin: 0, auto;
     padding: 18px;
+    font-family: 'Parisienne', cursive;
+    font-size: 2em;
+    font-weight: 400;
+}
+
+.navbar-light .navbar-brand:hover{ 
+    color: white;
 }
 
 .navbar-light .navbar-nav .nav-link {
     color: white;
-    padding: 20px;
+    padding: 30px;
+    font-family: 'Shippori Mincho', serif;
+    font-size: 17px;
 }
 
-.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link.active:hover {
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover  {
     color: white;
 }
 
-
-.navbar-light .navbar-nav .nav-link.active {
-    color: #00ff15;
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: antiquewhite;
+    text-decoration: underline;
+    text-decoration-thickness: 0.3em;
+    text-underline-offset: 0.3em;
 }
 
 .navbar {
@@ -66,6 +78,7 @@ body {
     border-top: none;
     border-bottom: none;
 }
+
 
 
 /* ===========================Media Queries================================= */
@@ -87,6 +100,18 @@ body {
 
     .navbar-collapse {
         background-color: #474747;
+    }
+}
+
+@media(max-width: 414px) {
+    .navbar-light .navbar-brand, .navbar-brand{
+        padding: 10px;
+    }
+}
+
+@media(max-width: 1140px) {
+    .navbar-light .navbar-brand, .navbar-brand{
+        padding: 28px;
     }
 }
 
