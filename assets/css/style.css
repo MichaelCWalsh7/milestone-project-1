@@ -109,11 +109,15 @@ body {
     }
 }
 
-@media(max-width: 1140px) {
+/* @media(max-width: 1261px) {
     .navbar-light .navbar-brand, .navbar-brand{
         padding: 28px;
     }
-}
+
+    .navbar-light .navbar-nav .nav-link{
+        font-size: 0.6em;
+    }
+} */
 
 /* ===========================Hover.css================================= */
 
