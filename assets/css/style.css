@@ -17,6 +17,37 @@ body {
 
 
 
+/* ===========================Colours================================= */
+
+.burgundy-color {
+    color: #960018;
+}
+
+.matte-grey-color {
+    color: #474747;
+}
+
+.wheat-color {
+    color: #F6E1B6;
+}
+
+.link-text-white {
+    color: white;
+}
+
+.link-text-red {
+    color: #960018;
+}
+
+
+/* ===========================General Styling================================= */
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
 /* ===========================Navbar================================= */
 
 
@@ -95,11 +126,19 @@ body {
 #footerCv {
     text-align: center;
     padding-top: 30px;
-    background-color: wheat;
+    background-color: #F6E1B6;
+    font-family: 'Shippori Mincho', serif;
+    font-weight: 600;
+    font-size: 1.1.em;
+}
+
+#footerCv a {
+    text-decoration: none;
 }
 
 #footerContainer a:hover{
-    color: white;
+    text-decoration: underline;
+    color: #960018;
 }
 
 /* ===========================Media Queries================================= */
@@ -130,13 +169,19 @@ body {
     }
 }
 
-/* @media(max-width: 1261px) {
-    .navbar-light .navbar-brand, .navbar-brand{
-        padding: 28px;
-    }
+/* Large Tablets and bigger */
 
-    .navbar-light .navbar-nav .nav-link{
-        font-size: 0.6em;
+/* @media(min-width: 767px) {
+    #footerCv {
+        font-size: 1.2em;
+    }
+} */
+
+/* Large Screens */
+
+/* @media(min-width: 1400px) {
+    #footerCv {
+        font-size: 1.2em;
     }
 } */
 
