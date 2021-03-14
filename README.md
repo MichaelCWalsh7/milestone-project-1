@@ -1,4 +1,4 @@
-font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
 font-family: 'Parisienne', cursive;
 font-family: 'Shippori Mincho', serif;
 
