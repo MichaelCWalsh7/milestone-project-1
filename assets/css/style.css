@@ -33,7 +33,7 @@ body {
 .navbar-light .navbar-brand, .navbar-brand {
     background-color: #960018;
     color: white;
-    text-align: center;    
+    text-align: center;
     margin: 0, auto;
     padding: 18px;
     font-family: 'Parisienne', cursive;
@@ -80,6 +80,27 @@ body {
 }
 
 
+/* ===========================Footer================================= */
+
+#footerContainer {
+    padding-left: 0;
+    background-color: #474747;
+    letter-spacing: 1px;
+}
+
+#footerNametagLink {
+    width: 105%;
+}
+
+#footerCv {
+    text-align: center;
+    padding-top: 30px;
+    background-color: wheat;
+}
+
+#footerContainer a:hover{
+    color: white;
+}
 
 /* ===========================Media Queries================================= */
 
