@@ -31,13 +31,14 @@ body {
     color: #F6E1B6;
 }
 
-.link-text-white {
+.link-text-white, .link-text-white:hover {
     color: white;
 }
 
-.link-text-red {
+.link-text-burgundy, .link-text-burgundy:hover  {
     color: #960018;
 }
+
 
 
 /* ===========================General Styling================================= */
@@ -50,11 +51,15 @@ a {
 }
 
 a:hover {
-    color: white;
+    color: inherit;
 }
 
 .list-inline-item:not(:last-child) {
     margin: 0;
+}
+
+.link-text-burgundy:hover {
+    text-decoration: underline;
 }
 
 
