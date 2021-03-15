@@ -103,7 +103,7 @@ a:hover {
 }
 
 .navbar {
-    padding-top: 0;
+    padding: 0;
 }
 
 .navbar-nav {
@@ -128,8 +128,13 @@ a:hover {
 
 /* ===========================Hero Image================================= */
 
-.hero-image{
-    background: url();
+.hero-image-container{
+    background: url("../images/maybe-the-best-resolution.jpg") no-repeat top;
+    height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;    
 }
 
 /* ===========================Footer================================= */
