@@ -42,6 +42,8 @@ body {
 
 /* ===========================General Styling================================= */
 
+
+
 a {
     text-decoration: none;
     color: inherit;
@@ -135,6 +137,17 @@ a:hover {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;    
+}
+
+
+/* ===========================Home Info================================= */
+
+.home-info-container {
+    margin: 0 15px;
+}
+
+.home-info-container h1 {
+    text-align: center;
 }
 
 /* ===========================Footer================================= */
