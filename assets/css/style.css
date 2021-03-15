@@ -300,6 +300,13 @@ a {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
+
+#workHistoryNavLink:before {
+    background: rgba(0, 228, 0, 0.35);
+}
+
+/* IMPORTANT!!!!!!!! THIS IS HOW YOU GET AROUND THE JANK!!! */
+
 .hvr-shutter-out-horizontal-work-history:hover, .hvr-shutter-out-horizontal-work-history:focus, .hvr-shutter-out-horizontal-work-history:active {
   color: white;
 }
