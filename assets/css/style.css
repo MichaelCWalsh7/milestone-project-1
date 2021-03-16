@@ -51,6 +51,9 @@ h1, h2, h3, h4, h5 {
     font-family: 'Montserrat', sans-serif;
 }
 
+p {
+    font-weight: 600;
+}
 a {
     text-decoration: none;
     color: inherit;
@@ -68,10 +71,17 @@ a:hover {
     text-decoration: underline;
 }
 
+
+/* ===========================Borders================================= */
+
+
 .left-border-divider {
     border-left: 2px solid black;
 }
 
+.top-border-divider {
+    border-top: 2px solid black;
+}
 
 /* ===========================Navbar================================= */
 
@@ -158,6 +168,21 @@ a:hover {
 }
 
 
+    /* animation-name: hero-pan;
+    animation-duration: 5s;
+    animation-fill-mode: forawrds;
+    overflow: hidden;
+}
+
+@keyframes hero-pan {
+    from{
+      }
+  to{
+    
+  
+} */
+
+
 /* ===========================Home Info================================= */
 
 .home-info-container {
@@ -169,10 +194,14 @@ a:hover {
 }
 
 .home-info-section {
-    padding: 4% 0;
+    padding: 15px 0;
 }
 .home-info-section p {
     font-size: 120%;
+}
+
+#currently {
+    padding: 10px 0;
 }
 
 
