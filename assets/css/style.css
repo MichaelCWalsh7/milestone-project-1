@@ -68,6 +68,10 @@ a:hover {
     text-decoration: underline;
 }
 
+.left-border-divider {
+    border-left: 2px solid black;
+}
+
 
 /* ===========================Navbar================================= */
 
@@ -158,12 +162,19 @@ a:hover {
 
 .home-info-container {
     margin: 0 15px;
-    padding-top: 3%;
 }
 
 .home-info-container h1 {
     text-align: center;
 }
+
+.home-info-section {
+    padding: 4% 0;
+}
+.home-info-section p {
+    font-size: 120%;
+}
+
 
 /* ===========================Footer================================= */
 
@@ -240,6 +251,13 @@ a:hover {
     #getInTouchNavLink {
         background-color: rgba(0, 10, 209, 0.2);
     }
+}
+
+@media(max-width: 575px) {
+    .left-border-divider {
+        border-left: 0;
+    }
+
 }
 
 @media(max-width: 414px) {
