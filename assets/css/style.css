@@ -43,7 +43,13 @@ body {
 
 /* ===========================General Styling================================= */
 
+body {
+    font-family: 'Shippori Mincho', serif;
+}
 
+h1, h2, h3, h4, h5 {
+    font-family: 'Montserrat', sans-serif;
+}
 
 a {
     text-decoration: none;
@@ -70,6 +76,8 @@ a:hover {
     padding: 0;
     background-color: #474747;
     letter-spacing: 1px;
+    position: fixed;
+    top: 0;
 }
 
 .navbar-brand {
@@ -137,11 +145,12 @@ a:hover {
 
 .hero-image-container{
     background: url("../images/maybe-the-best-resolution.jpg") no-repeat top;
-    height: 100vh;
+    height: 90vh;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;    
+    background-size: cover;
+    background-attachment: fixed;  
 }
 
 
@@ -149,6 +158,7 @@ a:hover {
 
 .home-info-container {
     margin: 0 15px;
+    padding-top: 3%;
 }
 
 .home-info-container h1 {
