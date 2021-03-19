@@ -158,29 +158,33 @@ a:hover {
 /* ===========================Hero Image================================= */
 
 .hero-image-container{
-    background: url("../images/maybe-the-best-resolution.jpg") no-repeat top;
+    background: url("../images/Sunny.jpeg") no-repeat top;
     height: 90vh;
+    
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background-attachment: fixed;  
-}
-
 
     /* animation-name: hero-pan;
     animation-duration: 5s;
-    animation-fill-mode: forawrds;
+    animation-fill-mode: forwards;
     overflow: hidden;
+    z-index: -1;
+    width: 150vw;
 }
 
 @keyframes hero-pan {
     from{
-      }
+    transform: translateX(0)
+  }
   to{
+    transform: translateX(5%) 
+  } */
     
   
-} */
+}
 
 
 /* ===========================Home Info================================= */
