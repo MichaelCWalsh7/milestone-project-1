@@ -232,6 +232,11 @@ a:hover {
     font-family: 'Montserrat', sans-serif;
 }
 
+.ci-module-section span {
+    font-size: x-large;
+    font-weight: 600;
+}
+
 /* .upcoming-module-graphic {
     border: 2px solid #960018;
 } */
