@@ -1,4 +1,9 @@
-/* ================================TEMPORARY CODE FOR A STICKY FOOTER */
+/* ================================TEMPORARY CODE FOR A STICKY FOOTER & NO HORIZONTAL SCROLL */
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 
 html {
   height: 100%;
@@ -13,7 +18,7 @@ body {
   grid-row-end: 3;
 }
 
-/* ================================TEMPORARY CODE FOR A STICKY FOOTER */
+/* ================================/TEMPORARY CODE FOR A STICKY FOOTER */
 
 
 
@@ -214,12 +219,13 @@ a:hover {
 
 
 #currently {
-    padding: 10px 0;
+    padding:12px;
     position: relative;
 }
 
 .ci-module-section {
     text-align: center;
+    padding: 12px;
 }
 
 .ci-module-section img {
@@ -232,19 +238,14 @@ a:hover {
     font-family: 'Montserrat', sans-serif;
 }
 
-.ci-module-section span {
-    font-size: x-large;
-    font-weight: 600;
+#pythonLogo, #djangoLogo, #diplomaIcon {
+    max-width: 300px;
+    height: 200px;
 }
 
-/* .upcoming-module-graphic {
-    border: 2px solid #960018;
-} */
-
-
-/* #htmlLogo {
-
-} */
+#diplomaProgressBar {
+    text-align: left;
+}
 
 /* ===========================Footer================================= */
 
