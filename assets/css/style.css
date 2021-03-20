@@ -27,6 +27,10 @@ body {
     color: #474747;
 }
 
+.dark-text {
+    color: black;
+}
+
 .wheat-color {
     color: #F6E1B6;
 }
@@ -92,6 +96,7 @@ a:hover {
     letter-spacing: 1px;
     position: fixed;
     top: 0;
+    z-index: 1;
 }
 
 .navbar-brand {
@@ -204,17 +209,33 @@ a:hover {
     font-size: 120%;
 }
 
+
+/* ===========================Currently================================= */
+
+
 #currently {
     padding: 10px 0;
     position: relative;
 }
 
-.progress-section img {
-    /* width: 30%; */
-    max-height: 200px;
-    padding-left: 20%;
-    padding-top: 10px;
+.ci-module-section {
+    text-align: center;
 }
+
+.ci-module-section img {
+    max-height: 200px;
+    padding: 10px 0;
+}
+
+.progress-bar {
+    font-size: 1.3em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* .upcoming-module-graphic {
+    border: 2px solid #960018;
+} */
+
 
 /* #htmlLogo {
 
