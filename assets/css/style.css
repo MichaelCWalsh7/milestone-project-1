@@ -51,6 +51,15 @@ body {
 }
 
 
+/* ===========================Fonts================================= */
+
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.shippori-mincho {
+    font-family: 'Shippori Mincho', serif;
+}
 
 /* ===========================General Styling================================= */
 
@@ -58,13 +67,10 @@ body {
     font-family: 'Shippori Mincho', serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4{
     font-family: 'Montserrat', sans-serif;
 }
 
-p {
-    font-weight: 600;
-}
 a {
     text-decoration: none;
     color: inherit;
@@ -249,11 +255,7 @@ a:hover {
     text-align: left;
 }
 
-/* ===========================~Work History================================= */
-
-#workHistory {
-    
-}
+/* ===========================Work History================================= */
 
 #workHistory h1 {
     text-align: center;
@@ -261,6 +263,26 @@ a:hover {
     text-decoration: underline;
 
 }
+
+.job-image {
+    text-align: center;
+    padding-bottom: 0;
+}
+
+.job-details i {
+    padding-right: 10px;
+}
+
+.job-details {
+    list-style-type: none;
+    font-size: large;
+    padding-left: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+#phoenixPhoto {
+    max-width: inherit;
+}
+
 
 /* ===========================Footer================================= */
 
