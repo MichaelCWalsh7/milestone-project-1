@@ -8,17 +8,19 @@ html, body {
 html {
   height: 100%;
 }
+
 body {
   min-height: 100%;
   display: grid;
   grid-template-rows: 1fr auto;
 }
+
 .footer {
   grid-row-start: 2;
   grid-row-end: 3;
-}
+} 
 
-/* ================================/TEMPORARY CODE FOR A STICKY FOOTER */
+/* ================================/TEMPORARY CODE FOR A STICKY FOOTER & NO HORIZONTAL SCROLL */
 
 
 
@@ -168,7 +170,7 @@ a:hover {
 /* ===========================Hero Image================================= */
 
 .hero-image-container{
-    background: url("../images/Sunny.jpeg") no-repeat top;
+    background: url("../images/hero-images/Sunny.jpeg") no-repeat top;
     height: 90vh;
     
     -webkit-background-size: cover;
@@ -247,12 +249,26 @@ a:hover {
     text-align: left;
 }
 
+/* ===========================~Work History================================= */
+
+#workHistory {
+    
+}
+
+#workHistory h1 {
+    text-align: center;
+    font-family: 'Shippori Mincho', serif;
+    text-decoration: underline;
+
+}
+
 /* ===========================Footer================================= */
 
 #footerContainer {
     padding-left: 0;
     background-color: #474747;
     letter-spacing: 1px;
+    /* margin-top: 33%; */
 }
 
 #footerNametagLink {
