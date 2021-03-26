@@ -13,6 +13,7 @@ body {
   min-height: 100%;
   display: grid;
   grid-template-rows: 1fr auto;
+  padding-top: 50px;
 }
 
 .footer {
@@ -70,6 +71,7 @@ body {
 h1, h2, h3, h4{
     font-family: 'Montserrat', sans-serif;
 }
+
 
 a {
     text-decoration: none;
@@ -257,20 +259,35 @@ a:hover {
 
 /* ===========================Work History================================= */
 
+#workHistory {
+    margin-top: 50px;
+}
+
+
 #workHistory h1 {
     text-align: center;
     font-family: 'Shippori Mincho', serif;
     text-decoration: underline;
+    padding-bottom: 10px;
 
 }
 
 .job-image {
     text-align: center;
-    padding-bottom: 0;
+    padding-top: 20px;
+
 }
+
+.job-image img {
+    min-height: 150px;
+    max-width: 185px;
+    max-height: 175px;
+}
+
 
 .job-details i {
     padding-right: 10px;
+    padding-top: 20px;
 }
 
 .job-details {
@@ -279,9 +296,7 @@ a:hover {
     padding-left: 5px;
     font-family: 'Montserrat', sans-serif;
 }
-#phoenixPhoto {
-    max-width: inherit;
-}
+
 
 
 /* ===========================Footer================================= */
@@ -389,10 +404,10 @@ a:hover {
 
 /* Large Screens */
 
-/* @media(min-width: 1400px) {
-    #footerCv {
-        font-size: 1.2em;
-    }
+/* @media(max-width: 1357px) {
+    #workHistory {
+    margin-top: 80px;
+}
 } */
 
 /* ===========================Hover.css================================= */
