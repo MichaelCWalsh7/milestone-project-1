@@ -25,6 +25,12 @@ body {
 
 
 
+
+
+
+
+
+
 /* ===========================Colours================================= */
 
 .burgundy-color {
@@ -52,6 +58,12 @@ body {
 }
 
 
+
+
+
+
+
+
 /* ===========================Fonts================================= */
 
 .montserrat {
@@ -62,10 +74,20 @@ body {
     font-family: 'Shippori Mincho', serif;
 }
 
+
+
+
+
+
+
+
+
+
 /* ===========================General Styling================================= */
 
 body {
     font-family: 'Shippori Mincho', serif;
+    margin-top: 50px;
 }
 
 h1, h2, h3, h4{
@@ -90,6 +112,16 @@ a:hover {
     text-decoration: underline;
 }
 
+.main-title {
+    text-align: center;
+    font-family: 'Shippori Mincho', serif;
+    text-decoration: underline;
+    padding-bottom: 10px;
+}
+
+
+
+
 
 /* ===========================Borders================================= */
 
@@ -101,6 +133,11 @@ a:hover {
 .top-border-divider {
     border-top: 2px solid black;
 }
+
+
+
+
+
 
 /* ===========================Navbar================================= */
 
@@ -175,6 +212,9 @@ a:hover {
     margin-right: 10px;
 }
 
+
+
+
 /* ===========================Hero Image================================= */
 
 .hero-image-container{
@@ -207,6 +247,11 @@ a:hover {
 }
 
 
+
+
+
+
+
 /* ===========================Home Info================================= */
 
 .home-info-container {
@@ -223,6 +268,11 @@ a:hover {
 .home-info-section p {
     font-size: 120%;
 }
+
+
+
+
+
 
 
 /* ===========================Currently================================= */
@@ -257,24 +307,29 @@ a:hover {
     text-align: left;
 }
 
+
+
+
+
+
+
+
+
+
+
+
 /* ===========================Work History================================= */
 
-#workHistory {
+/* #workHistory {
     margin-top: 50px;
-}
+} */
 
 
-#workHistory h1 {
-    text-align: center;
-    font-family: 'Shippori Mincho', serif;
-    text-decoration: underline;
-    padding-bottom: 10px;
-
-}
-
-.job-sections-container{
+/* .job-sections-container{
     border-left: 1px solid;
-}
+
+    Save this for larger screens only
+} */
 
 
 .job-image {
@@ -308,6 +363,53 @@ a:hover {
       /* the width margin is a little jank and could be cleaner... */
       
 }
+
+
+
+
+
+
+
+
+
+/* ===========================Get in Touch================================= */
+
+#getInTouch {
+    width: 100%;
+}
+
+#collabImage img {
+    text-align: center;
+    position: relative;
+    max-width: 100%;
+}
+
+#collabInfo {
+    text-align: center;
+}
+
+#collabInfo h1 {
+    color: #00cc00;  
+    font-size: 42px;  
+    padding-top: 10%;
+}
+
+#collabInfo p {
+    background-color: darkgray;
+    color: #000000;
+    text-align: center;
+    font-size: 1.2em;
+    width: 100%;
+    padding: 5%;
+}
+
+#programmerButton {
+    background-color: #00cc00;
+    color: white;
+    font-size: 1.3rem;
+
+}
+
 
 
 /* ===========================Footer================================= */
@@ -416,6 +518,7 @@ a:hover {
         margin: 8px 20px; 
     }
 }
+
 
 /* @media(min-width: 992px) {
     .job-details{
