@@ -304,7 +304,7 @@ a:hover {
     padding: 16px 5px;
     border: 7px outset #474747;
     font-weight: bolder; 
-    margin: 8px 0px; 
+    margin: 8px 4px; 
       /* the width margin is a little jank and could be cleaner... */
       
 }
