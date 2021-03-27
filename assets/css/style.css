@@ -272,6 +272,11 @@ a:hover {
 
 }
 
+.job-sections-container{
+    border-left: 1px solid;
+}
+
+
 .job-image {
     text-align: center;
     padding-top: 5px;
@@ -284,6 +289,9 @@ a:hover {
     max-height: 175px;
 }
 
+/* .job-details-container {
+    text-align: right;
+} */
 
 .job-details i {
     padding-top: 10px;    
@@ -296,9 +304,10 @@ a:hover {
     padding: 16px 5px;
     border: 7px outset #474747;
     font-weight: bolder; 
-    margin: 8px 0;   
+    margin: 8px 0px; 
+      /* the width margin is a little jank and could be cleaner... */
+      
 }
-
 
 
 /* ===========================Footer================================= */
@@ -396,21 +405,26 @@ a:hover {
     }
 }
 
-/* Large Tablets and bigger */
+@media (min-width: 576px) and (max-width: 752px) {
+    .job-details {
+        margin: 8px 45px; 
+    }
+}
 
-/* @media(min-width: 767px) {
-    #footerCv {
-        font-size: 1.2em;
+@media (min-width: 992px) and (max-width: 1130px) {
+    .job-details {
+        margin: 8px 20px; 
+    }
+}
+
+/* @media(min-width: 992px) {
+    .job-details{
+        margin: 8px 45px;
     }
 } */
 
-/* Large Screens */
+/* Large Tablets and bigger */
 
-/* @media(max-width: 1357px) {
-    #workHistory {
-    margin-top: 80px;
-}
-} */
 
 /* ===========================Hover.css================================= */
 
