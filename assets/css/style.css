@@ -384,8 +384,12 @@ a:hover {
     max-width: 100%;
 }
 
-#collabInfo {
-    text-align: center;
+/* #employContact {
+    padding-top: 10px;
+} */
+
+#collabInfo, #employInfo {
+    text-align: center;    
 }
 
 #collabInfo h1 {
@@ -394,7 +398,13 @@ a:hover {
     padding-top: 10%;
 }
 
-#collabInfo p {
+#employInfo h1 {
+    color: #0A89EE;
+    font-size: 42px;  
+    padding-top: 10%;
+}
+
+#collabInfo p, #employInfo p {
     background-color: darkgray;
     color: #000000;
     text-align: center;
