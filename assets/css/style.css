@@ -378,7 +378,7 @@ a:hover {
     width: 100%;
 }
 
-#collabImage img {
+#collabImage img, #employImage img {
     text-align: center;
     position: relative;
     max-width: 100%;
