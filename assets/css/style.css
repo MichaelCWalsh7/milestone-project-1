@@ -383,6 +383,7 @@ a:hover {
 
 #employerSection {
      border-top: black solid 4px;
+     border-bottom: black solid 4px;
 }
 
 #collabImage img, #employImage img {
@@ -415,7 +416,7 @@ a:hover {
     padding-top: 10%;
 }
 
-#collabInfo p, #employInfo p {
+.info-section p {
     background-color: darkgray;
     color: #000000;
     text-align: center;
@@ -438,6 +439,15 @@ a:hover {
     font-size: 1.3rem;
     margin-bottom: 20px;
 }
+
+ #newsletterList {
+    background-color: darkgray;
+    color: #000000;
+    text-align: center;
+    font-size: 1.2em;
+    width: 50%;
+    margin: 0 auto;
+ }
 
 
 
