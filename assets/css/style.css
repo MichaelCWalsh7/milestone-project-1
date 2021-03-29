@@ -57,9 +57,20 @@ body {
     color: #960018;
 }
 
+.background-programmer-green {
+    background-color: #00cc00;
+    color: white;
+}
 
+.background-employer-blue {
+    background-color: #0A89EE;
+    color: white;
+}
 
-
+.background-newsletter-red {
+    background-color: #F70303;
+    color: white;
+}
 
 
 

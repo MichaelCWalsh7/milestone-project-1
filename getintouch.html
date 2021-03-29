@@ -80,22 +80,29 @@
                             me on?</p>
                         <!-- Button trigger modal -->
                         <button type="button" class="btn btn-secondary" id="programmerButton" data-bs-toggle="modal"
-                            data-bs-target="#exampleModal">
+                            data-bs-target="#programmerModal">
                             Click here to get started!!
                         </button>
 
                         <!-- Modal -->
-                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                            aria-hidden="true">
+                        <div class="modal fade" id="programmerModal" tabindex="-1"
+                            aria-labelledby="programmerModalLabel" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h4 class="modal-title" id="exampleModalLabel">Let's Work Together!</h4>
+                                        <h4 class="modal-title" id="programmerModalLabel">Let's Work Together!</h4>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal"
                                             aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
-                                        ...
+                                        <form>
+                                            <input type="text" name="name" id="fullname" class="form-control"
+                                                placeholder="Name" required>
+                                            <input type="email" name="email" id="emailaddress" class="form-control"
+                                                placeholder="Email" required>
+                                            <textarea name="projectsummary" id="projectsummary" rows="5"
+                                                class="form-control" placeholder="Project description"></textarea>
+                                        </form>
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary"
