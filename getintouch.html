@@ -123,6 +123,9 @@
                         </div>
                     </div>
                 </div>
+
+
+
                 <div class="row contact-section" id="employerSection">
                     <div class="d-none d-lg-block col-lg-6" id="employImage">
                         <img src="assets/images/contact-images/employer.png" alt="an image of a man next to a laptop">
@@ -149,13 +152,15 @@
                                             aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
-                                        <div class="cv-email-form">
-                                            <form>
-                                                <input type="text" name="name" id="employFullName" class="form-control"
-                                                    placeholder="Name" required>
-                                                <input type="email" name="email" id="employEmailAddress"
-                                                    class="form-control" placeholder="Email" required>
-                                            </form>
+                                        <div class="form-floating">
+                                            <input type="text" name="name" id="employFullName" class="form-control"
+                                                placeholder="Name" required>
+                                            <label for="employFullName">Name</label>
+                                        </div>
+                                        <div class="form-floating">
+                                            <input type="email" class="form-control" id="employEmail"
+                                                placeholder="name@example.com">
+                                            <label for="employEmail">Email address</label>
                                         </div>
                                     </div>
                                     <div class="modal-footer">
@@ -180,6 +185,9 @@
                     </div>
                 </div>
             </div>
+
+
+            
             <div class="row contact-section" id="newsletterSection">
                 <div class="col-12 info-section" id="newsletterInfo">
                     <h1 class="main-title"> NEW!! Sign Up to my Newsletter!</h1>
