@@ -549,7 +549,7 @@ a:hover {
         background-color: rgba(0, 10, 209, 0.2);
     }
 
-    #collabInfo h1 {
+    #collabInfo h1, #employInfo h1 {
         padding-top: 0;
     }
 }
