@@ -445,24 +445,7 @@ a:hover {
     padding: 5%;
 }
 
-#programmerButton {
-    background-color: #00cc00;
-    color: white;
-    font-size: 1.3rem;
-    margin-bottom: 20px;
-
-}
-
-#employerButton {
-    background-color: #0A89EE;
-    color: white;
-    font-size: 1.3rem;
-    margin-bottom: 20px;    
-}
-
-#newsletterButton {
-    background-color: #F70303;
-    color: white;
+.modal-open-button {    
     font-size: 1.3rem;
     margin-bottom: 20px;
 }
