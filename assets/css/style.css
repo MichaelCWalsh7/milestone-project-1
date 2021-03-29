@@ -375,21 +375,32 @@ a:hover {
 /* ===========================Get in Touch================================= */
 
 #getInTouch {
-    width: 100%;
+    width: 100%;   
+    padding: 17px 0 5px 0;
+}
+
+
+
+#employerSection {
+     border-top: black solid 4px;
 }
 
 #collabImage img, #employImage img {
     text-align: center;
     position: relative;
     max-width: 100%;
+    max-height: 98%;   
+    
 }
 
-/* #employContact {
-    padding-top: 10px;
-} */
+#collabImage, #employImage {
+    padding-left: 0;
+      
+}
 
 #collabInfo, #employInfo {
-    text-align: center;    
+    text-align: center;
+        
 }
 
 #collabInfo h1 {
@@ -417,6 +428,7 @@ a:hover {
     background-color: #00cc00;
     color: white;
     font-size: 1.3rem;
+    margin-bottom: 20px;
 
 }
 
@@ -424,6 +436,7 @@ a:hover {
     background-color: #0A89EE;
     color: white;
     font-size: 1.3rem;
+    margin-bottom: 20px;
 }
 
 
