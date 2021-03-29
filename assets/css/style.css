@@ -444,8 +444,16 @@ a:hover {
     background-color: #0A89EE;
     color: white;
     font-size: 1.3rem;
+    margin-bottom: 20px;    
+}
+
+#newsletterButton {
+    background-color: #F70303;
+    color: white;
+    font-size: 1.3rem;
     margin-bottom: 20px;
 }
+
 
  #newsletterList {
     background-color: darkgray;
@@ -537,6 +545,10 @@ a:hover {
 
     #getInTouchNavLink {
         background-color: rgba(0, 10, 209, 0.2);
+    }
+
+    #collabInfo h1 {
+        padding-top: 0;
     }
 }
 
