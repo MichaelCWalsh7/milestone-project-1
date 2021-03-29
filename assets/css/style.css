@@ -468,6 +468,10 @@ a:hover {
      padding: 0;
  }
 
+ /* #newsletterList ul {
+     width: auto;
+ } */
+
 
 
 
@@ -671,3 +675,17 @@ a:hover {
     background: rgba(0, 10, 209, 0.2);
 }
 
+#newsletterButton:hover {
+     background-color: white;
+    color: #F70303;
+}
+
+#newsletterButton:hover {
+     background-color: white;
+    color: #F70303;
+}
+
+.newsletter-button:hover {
+     background-color: white;
+    color: #F70303;
+}
