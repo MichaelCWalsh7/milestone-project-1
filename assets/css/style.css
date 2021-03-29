@@ -481,8 +481,9 @@ a:hover {
     padding-top: 10px;
 }
 
-#modalCvDownload a {
-    margin-bottom: 10px;
+#modalCvDownloadButtton a {
+    font-size: 1.3rem;
+    margin: 21px auto;
 }
 
 
