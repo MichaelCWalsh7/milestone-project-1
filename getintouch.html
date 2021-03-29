@@ -95,14 +95,22 @@
                                             aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
-                                        <form>
+                                        <div class="form-floating">
                                             <input type="text" name="name" id="collabFullName" class="form-control"
                                                 placeholder="Name" required>
-                                            <input type="email" name="email" id="collabEmailAddress"
-                                                class="form-control" placeholder="Email" required>
-                                            <textarea name="projectsummary" id="projectSummary" rows="5"
-                                                class="form-control" placeholder="Project description"></textarea>
-                                        </form>
+                                            <label for="collabFullName">Name</label>
+                                        </div>
+                                        <div class="form-floating">
+                                            <input type="email" class="form-control" id="collabEmail"
+                                                placeholder="name@example.com">
+                                            <label for="collabEmail">Email address</label>
+                                        </div>
+                                        <div class="form-floating">
+                                            <textarea class="form-control" placeholder="Project description"
+                                                id="projectDescription" style="height: 200px"></textarea>
+                                            <label for="projectDescription">Project description</label>
+                                        </div>
+
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary"
@@ -158,7 +166,7 @@
 
                                     </div>
                                     <div id="modalCvDownload">
-                                        <div class="top-border-divider modal-header">
+                                        <div class="top-border-divider-thick modal-header">
                                             <h4 class="modal-title">OR (if you'd rather...)</h4>
                                         </div>
                                         <div>
@@ -216,7 +224,7 @@
                 </div>
             </div>
         </div>
-        
+
 
         <!-- /GET IN TOUCH -->
 

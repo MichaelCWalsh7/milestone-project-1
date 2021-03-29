@@ -147,6 +147,10 @@ a:hover {
     border-top: 2px solid black;
 }
 
+.top-border-divider-thick {
+    border-top: 6px solid black;
+}
+
 
 
 
