@@ -176,7 +176,7 @@
                                         </div>
                                         <div id="modalCvDownloadButtton">
                                             <a href="#" class="btn btn-secondary background-employer-blue">Click here to
-                                                download!</a>
+                                                download! <span><i class="fas fa-download"></i></span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -219,7 +219,16 @@
                                         aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
-                                    ...
+                                    <div class="form-floating">
+                                            <input type="text" name="name" id="newsletterFullName" class="form-control"
+                                                placeholder="Name" required>
+                                            <label for="newsletterFullName">Name</label>
+                                        </div>
+                                        <div class="form-floating">
+                                            <input type="email" class="form-control" id="newsletterEmail"
+                                                placeholder="name@example.com">
+                                            <label for="newsletterEmail">Email address</label>
+                                        </div>
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary"
