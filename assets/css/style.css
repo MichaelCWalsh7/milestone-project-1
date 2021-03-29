@@ -466,6 +466,24 @@ a:hover {
 
 
 
+
+
+
+/* ===========================Modals================================= */
+
+
+#modalCvDownload h2 {
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 10px;
+}
+
+#modalCvDownload a {
+    margin-bottom: 10px;
+}
+
+
+
+
 /* ===========================Footer================================= */
 
 #footerContainer {

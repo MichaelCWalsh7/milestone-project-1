@@ -79,8 +79,8 @@
                         <p>Are you a fellow programmer who has a project or an idea that you'd like to collaborate with
                             me on?</p>
                         <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-secondary modal-open-button background-programmer-green" id="programmerButton" data-bs-toggle="modal"
-                            data-bs-target="#programmerModal">
+                        <button type="button" class="btn btn-secondary modal-open-button background-programmer-green"
+                            id="programmerButton" data-bs-toggle="modal" data-bs-target="#programmerModal">
                             Click here to get started!!
                         </button>
 
@@ -96,18 +96,19 @@
                                     </div>
                                     <div class="modal-body">
                                         <form>
-                                            <input type="text" name="name" id="fullname" class="form-control"
+                                            <input type="text" name="name" id="collabFullName" class="form-control"
                                                 placeholder="Name" required>
-                                            <input type="email" name="email" id="emailaddress" class="form-control"
-                                                placeholder="Email" required>
-                                            <textarea name="projectsummary" id="projectsummary" rows="5"
+                                            <input type="email" name="email" id="collabEmailAddress"
+                                                class="form-control" placeholder="Email" required>
+                                            <textarea name="projectsummary" id="projectSummary" rows="5"
                                                 class="form-control" placeholder="Project description"></textarea>
                                         </form>
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary"
                                             data-bs-dismiss="modal">Close</button>
-                                        <button type="button" class="btn btn-primary background-programmer-green">Submit</button>
+                                        <button type="button"
+                                            class="btn btn-primary background-programmer-green">Submit</button>
                                     </div>
                                 </div>
                             </div>
@@ -123,8 +124,8 @@
                         <p>Are you a prospective employer who'd like to find out more? A more traditional copy of mv CV
                             is also available.</p>
                         <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-secondary modal-open-button" id="employerButton" data-bs-toggle="modal"
-                            data-bs-target="#employerModal">
+                        <button type="button" class="btn btn-secondary modal-open-button background-employer-blue"
+                            id="employerButton" data-bs-toggle="modal" data-bs-target="#employerModal">
                             Click here for my CV!!
                         </button>
 
@@ -134,17 +135,31 @@
                             <div class="modal-dialog modal-dialog-centered">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h4 class="modal-title" id="employerModalLabel">Let's Work Together!</h4>
+                                        <h4 class="modal-title" id="employerModalLabel">Receive a copy of my CV via
+                                            email!</h4>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal"
                                             aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
-                                        ...
+                                        <div class="cv-email-form">
+                                            <form>
+                                                <input type="text" name="name" id="employFullName" class="form-control"
+                                                    placeholder="Name" required>
+                                                <input type="email" name="email" id="employEmailAddress"
+                                                    class="form-control" placeholder="Email" required>
+                                            </form>
+                                        </div>
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary"
                                             data-bs-dismiss="modal">Close</button>
-                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                        <button type="button"
+                                            class="btn btn-primary background-employer-blue">Submit</button>
+
+                                    </div>
+                                    <div class="top-border-divider" id="modalCvDownload">
+                                        <h2 class="main-title">OR (if you'd rather...)</h2>
+                                        <a href="#" class="btn btn-secondary background-employer-blue">Click here to download!</a>
                                     </div>
                                 </div>
                             </div>
@@ -165,8 +180,8 @@
                         </div>
                         <!-- Button trigger modal -->
                         <div class="button-center">
-                            <button type="button" class="btn btn-secondary modal-open-button" id="newsletterButton" data-bs-toggle="modal"
-                                data-bs-target="#newsletterModal">
+                            <button type="button" class="btn btn-secondary modal-open-button" id="newsletterButton"
+                                data-bs-toggle="modal" data-bs-target="#newsletterModal">
                                 Click here to sign up!!
                             </button>
                         </div>
