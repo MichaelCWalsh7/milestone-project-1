@@ -473,10 +473,9 @@ a:hover {
  }
 
 
-
- /* #newsletterList ul {
-     width: auto;
- } */
+#newsletterList i {
+    color: purple;
+}
 
 
 
@@ -681,9 +680,9 @@ a:hover {
     background: rgba(0, 10, 209, 0.2);
 }
 
-.newsletter-button:hover {
+.programmer-button:hover {
      background-color: white;
-    color: #F70303;
+    color: #00cc00;
 }
 
  .employer-button:hover {
