@@ -409,6 +409,9 @@ a:hover {
     background: linear-gradient(75deg, lightpink 40%, cyan)
 }
 
+#rosieCvLink {
+    background: linear-gradient(75deg, #e67e22 40%, #525252 )
+}
 
 
 /* ===========================Get in Touch================================= */
