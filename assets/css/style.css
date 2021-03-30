@@ -656,6 +656,12 @@ a:hover {
     }
 }
 
+@media(min-width: 414px) {
+    #codingSection {
+        margin-top: 23px;
+    }
+}
+
 @media (min-width: 576px) and (max-width: 752px) {
     .job-details {
         margin: 8px 45px; 
