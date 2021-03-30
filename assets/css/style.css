@@ -403,14 +403,25 @@ a:hover {
     padding: 10px;
     font-size: 1.5em;
     margin-bottom: 7px;
+    margin-left: 4px;
+    margin-right: 4px;
 }
 
 #loveRunningLink {
-    background: linear-gradient(75deg, lightpink 40%, cyan)
+    background: linear-gradient(75deg, lightpink 40%, cyan);
+    font-family: 'Oswald', sans-serif;
 }
 
 #rosieCvLink {
-    background: linear-gradient(75deg, #e67e22 40%, #525252)
+    background: linear-gradient(75deg, #e67e22 40%, #525252);
+    color: white;
+    font-family: 'Exo', sans-serif;
+}
+
+#personalWebsiteLink {
+    background: linear-gradient(75deg, #960018 40%, #474747);
+    color: white;
+    font-family: 'Parisienne', cursive;
 }
 
 
