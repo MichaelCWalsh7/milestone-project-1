@@ -391,6 +391,10 @@ a:hover {
 
 /* ===========================Projects================================= */
 
+#projectsContainer {
+    padding: 0;
+}
+
 .project-link {
     text-align: center;
     box-sizing: border-box;
@@ -398,9 +402,12 @@ a:hover {
     border: 1px dotted black;
     padding: 10px;
     font-size: 1.5em;
+    margin-bottom: 7px;
 }
 
-
+#loveRunningLink {
+    background: linear-gradient(75deg, lightpink 40%, cyan)
+}
 
 
 
