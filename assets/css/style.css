@@ -680,17 +680,17 @@ a:hover {
     background: rgba(0, 10, 209, 0.2);
 }
 
-.programmer-button:hover {
+.programmer-button:hover, .programmer-button:focus, .programmer-button:hover {
      background-color: white;
     color: #00cc00;
 }
 
- .employer-button:hover {
+ .employer-button:hover, .employer-button:focus, .employer-button:hover {
      background-color: white;
     color: #0A89EE;
 }
 
-.newsletter-button:hover {
+.newsletter-button:hover, .newsletter-button:focus, .newsletter-button:hover {
      background-color: white;
     color: #F70303;
 }
