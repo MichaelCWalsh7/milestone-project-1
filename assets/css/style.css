@@ -389,6 +389,21 @@ a:hover {
 
 
 
+/* ===========================Projects================================= */
+
+.project-link {
+    text-align: center;
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px dotted black;
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+
+
+
+
 /* ===========================Get in Touch================================= */
 
 #getInTouch {
