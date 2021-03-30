@@ -467,6 +467,12 @@ a:hover {
  #newsletterList p {
      padding: 0;
  }
+ 
+ #newsletterList span {
+     display: block;
+ }
+
+
 
  /* #newsletterList ul {
      width: auto;
