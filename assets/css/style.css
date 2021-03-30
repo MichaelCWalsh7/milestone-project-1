@@ -610,13 +610,34 @@ a:hover {
 }
 
 
-/* @media(min-width: 992px) {
-    .job-details{
-        margin: 8px 45px;
-    }
-} */
 
-/* Large Tablets and bigger */
+
+
+
+
+
+/* ===========================Psuedo-classes================================= */
+
+
+
+.programmer-button:hover, .programmer-button:focus {
+     background-color: white;
+    color: #00cc00;
+}
+
+ .employer-button:hover, .employer-button:focus {
+     background-color: white;
+    color: #0A89EE;
+}
+
+.newsletter-button:hover, .newsletter-button:focus {
+     background-color: white;
+    color: #F70303;
+}
+
+
+
+
 
 
 /* ===========================Hover.css================================= */
@@ -680,17 +701,3 @@ a:hover {
     background: rgba(0, 10, 209, 0.2);
 }
 
-.programmer-button:hover, .programmer-button:focus, .programmer-button:hover {
-     background-color: white;
-    color: #00cc00;
-}
-
- .employer-button:hover, .employer-button:focus, .employer-button:hover {
-     background-color: white;
-    color: #0A89EE;
-}
-
-.newsletter-button:hover, .newsletter-button:focus, .newsletter-button:hover {
-     background-color: white;
-    color: #F70303;
-}
