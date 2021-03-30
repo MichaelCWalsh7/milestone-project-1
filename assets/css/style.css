@@ -422,6 +422,31 @@ a:hover {
     font-family: 'Parisienne', cursive;
 }
 
+#chapter1Link, #chapter2Link {
+    background: linear-gradient(75deg, #E4C638 40%, #156F04);    
+    font-family: 'Shippori Mincho', serif;
+}
+
+
+#shortStoryLink {
+    background: linear-gradient(75deg, grey 40%, gold);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#poemLink {
+    background: linear-gradient(75deg, red 40%, black);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+
+
+
+
 
 /* ===========================Get in Touch================================= */
 
