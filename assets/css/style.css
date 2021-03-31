@@ -403,14 +403,23 @@ a:hover {
     text-align: center;
     box-sizing: border-box;
     width: 100%;
-    height: 100%;
+    height: 100%;    
     border: 1px dotted black;    
     font-size: 1.5em;
     margin-bottom: 7px;
 }
 
+.project-link a {
+    line-height: 138px;
+}
+/* needs to be changed but we're getting there */
+
 .project-links-container {
     padding: 10px 0px 10px 4px;
+}
+
+#writingSection .col-12 h1 {
+    padding-top: 15px;
 }
 
 #loveRunningLink {
