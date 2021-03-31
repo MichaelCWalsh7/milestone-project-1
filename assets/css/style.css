@@ -395,14 +395,22 @@ a:hover {
     padding: 0;
 }
 
+.project-section, .project-item {
+    padding-right: 0;
+}
+
 .project-link {
     text-align: center;
     box-sizing: border-box;
     width: 100%;
-    border: 1px dotted black;
-    padding: 10px;
+    height: 100%;
+    border: 1px dotted black;    
     font-size: 1.5em;
     margin-bottom: 7px;
+}
+
+.project-links-container {
+    padding: 10px 0px 10px 4px;
 }
 
 #loveRunningLink {
