@@ -1,9 +1,3 @@
-font-family: 'Montserrat', sans-serif;
-font-family: 'Parisienne', cursive;
-font-family: 'Shippori Mincho', serif;
-font-family: 'Exo', sans-serif;
-font-family: 'Oswald', sans-serif;
-
 
 <h1 align="center">My Personal Website</h1>
 
