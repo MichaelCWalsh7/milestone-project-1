@@ -692,8 +692,25 @@ a:hover {
 
 }
 
+@media (min-width: 992px) {
+    .project-links-container, .project-description {
+        display: none;
+    }
 
+    #projectsContainer {
+        padding-bottom: 11%;
+        height: 30%;        
 
+    }
+
+    .project-section {
+        border-right: 2px solid black;
+    }
+
+    .project-item {
+        padding-right: 0;
+    }
+}
 
 
 
