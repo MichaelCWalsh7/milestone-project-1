@@ -16,7 +16,7 @@ This is a personal website advertising the skills and availability for work of M
         creator. For example, age, nationality, professional & personal interests.
         2. As a First Time Visitor, I want to be able to easliy navigate through the site, and have a clear understanding of what 
         the purpose of each page is and where it's most pertinnent information is. 
-        3. As a first time user I want to be able to check the employment status and professionalism of the creator, I also want to 
+        3. As a First Time Visitor, I want to be able to check the employment status and professionalism of the creator, I also want to 
         locate their social media links to see their followings on social media and determine how trustworthy and legitimate they are.
 
     -   #### Returning Visitor Goals
