@@ -39,7 +39,7 @@ This is a personal website advertising the skills and availability for work of M
         or creator.
 
 
--   ### Design
+*   ### Design
     -   #### Colour Scheme
         - The two main colours used (right now) are a burgundyish red and a dark matte grey. The intention was to have a mixture of 
         a modern and a more romantic aesthetic; with the matte grey and burgundy representing those two ideas respectively. 
@@ -47,7 +47,7 @@ This is a personal website advertising the skills and availability for work of M
         - *Talk about navbar colours here*
 
     -   #### Typography
-        - The two main fonts in use throughout the website are Shippori Mincho, and Montserrat with Sans Serif as the fallback font for 
+        - The two main fonts in use throughout the website are Shippori Mincho, and Montserrat, with Sans Serif as the fallback font for 
         both in case for any reason the fonts aren't being imported into the site correctly.
         - Shippori Mincho is a font based on The Tokyo Tsukiji Type Foundry No. 5 Mincho style. A common font in Japanese and Chinese
         typography, it has a much  more traditional look and feel than it's counterpart, Montserrat. This style is designed with the 
@@ -85,10 +85,81 @@ This is a personal website advertising the skills and availability for work of M
         not show up on all devices. These images only show up for those using laptops, desktops and larger screens. The decision was made
         to hide these images on smaller screens, as they took up far too much valuable screen space. In addition, their visaully striking nature, 
         gave a bombardment of visual images that led to a very poor user experience. Instead of the aforementioned images, a large, clickable link
-        replaces the title of the project on both mobile and tablet. This link, uses the colours associated with the project as a background, with 
+        replaces the title of the project on both mobile and tablet. This link uses the colours associated with the project as a background, with 
         a copacetic, bi-colour, gradient effect. The way that the issue of a potential, visual overload was handled on larger screens, was to make 
         it more pleasant for the user, by utilising the z-index property of CSS3. This made it so that only one image of a project was visible 
         to the user at any one time. The remaining images were made visible to the user, when the titles of other projects on the left hand-side 
         were hovered over. This also had the added bonus effect of keeping the entire library of projects on a single, easy to understand & 
         navigate screen, eliminating the need for the user to have to scroll up and down throught the page to find the many different projects 
-        available. 
+        available.
+
+
+*  ### Wireframes
+
+    -   Home Page Wireframes 
+        - [Mobile](https://github.com/) 
+        - [Tablet](https://github.com/) 
+        - [Desktop](https://github.com/)
+
+    -   Work History Wireframes - 
+        - [Mobile](https://github.com/) 
+        - [Tablet](https://github.com/) 
+        - [Desktop](https://github.com/)
+
+    -  Projects Wireframes - 
+        - [Mobile](https://github.com/) 
+        - [Tablet](https://github.com/) 
+        - [Desktop](https://github.com/)
+
+    -   Get in Touch Wireframes - 
+        - [Mobile](https://github.com/) 
+        - [Tablet](https://github.com/) 
+        - [Desktop](https://github.com/)
+
+## Features
+
+-   Responsive on all device sizes
+
+-   Interactive elements
+
+-   Audio & visual content.
+
+## Technologies Used
+
+### Languages Used
+
+-   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+-   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+
+### Frameworks, Libraries & Programs Used
+
+1. [Bootstrap v5.0:](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+    - Bootstrap was used to assist with the responsiveness and styling of the website.
+1. [Hover.css:](https://ianlunn.github.io/Hover/)
+    - Hover.css was used on the 4 different buttons on the navbar on desktopsand larger screens.
+1. [Google Fonts:](https://fonts.google.com/)
+    - Google Fonts were used to import the 'Shippori Mincho', 'Montserrat' and 'Parisienne' fonts into the style.css file which are used on 
+    all pages throughout the project. 
+    - Google Fonts were also used to import the 'Exo' & 'Oswald' fonts into the style.css file which are fonts not really used in this website,
+    but rather fonts that are native to other projects that I've worked on. The font used in the link to those projects, matches the main heading
+    fonts used on those websites. ('Exo' for Rosie Odenkirk, & 'Oswald' for Love Running)
+1. [Font Awesome:](https://fontawesome.com/)
+    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+1. [Git](https://git-scm.com/)
+    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+1. [GitHub:](https://github.com/)
+    - GitHub is used to store the projects code after being pushed from Git.
+1.  [Microsoft Paint:](https://support.microsoft.com/en-us/windows/get-microsoft-paint-a6b9578c-ed1c-5b09-0699-4ed8115f9aa9)
+    - Microsoft Paint was used to  crop & resize images, as well for changing the file types of images saved from online.
+1.  [Balsamiq:](https://balsamiq.com/)
+    - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
+
+
+## Testing
+
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+
+### Testing User Stories from User Experience (UX) Section
