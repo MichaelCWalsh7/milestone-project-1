@@ -97,24 +97,29 @@ This is a personal website advertising the skills and availability for work of M
 *  ### Wireframes
 
     -   Home Page Wireframes 
-        - [Mobile](https://github.com/) 
-        - [Tablet](https://github.com/) 
-        - [Desktop](https://github.com/)
+        - [Mobile](https://michaelcwalsh7.github.io/milestone-project-1/assets/images/README-images/wireframes/mobile/mobile-home.png) 
+        - [Tablet](https://michaelcwalsh7.github.io/milestone-project-1/assets/images/README-images/wireframes/tablet/tablet-home.png) 
+        - [Desktop](https://michaelcwalsh7.github.io/milestone-project-1/assets/images/README-images/wireframes/desktop/desktop-home.png)
 
     -   Work History Wireframes - 
-        - [Mobile](https://github.com/) 
-        - [Tablet](https://github.com/) 
-        - [Desktop](https://github.com/)
+        - [Mobile](https://michaelcwalsh7.github.io/milestone-project-1/assets/images/README-images/wireframes/mobile/mobile-work-history.png) 
+        - [Tablet](https://michaelcwalsh7.github.io/milestone-project-1/assets/images/README-images/wireframes/tablet/tablet-work-history.png) 
+        - [Desktop](https://michaelcwalsh7.github.io/milestone-project-1/assets/images/README-images/wireframes/desktop/desktop-work-history.png)
 
     -  Projects Wireframes - 
-        - [Mobile](https://github.com/) 
-        - [Tablet](https://github.com/) 
-        - [Desktop](https://github.com/)
+        - [Mobile](https://michaelcwalsh7.github.io/milestone-project-1/assets/images/README-images/wireframes/mobile/mobile-projects.png) 
+        - [Tablet](https://michaelcwalsh7.github.io/milestone-project-1/assets/images/README-images/wireframes/tablet/tablet-projects.png) 
+        - [Desktop](https://michaelcwalsh7.github.io/milestone-project-1/assets/images/README-images/wireframes/desktop/desktop-projects.png)
+
+    -  Example Project Wireframes - 
+        - [Mobile](https://michaelcwalsh7.github.io/milestone-project-1/assets/images/README-images/wireframes/mobile/mobile-example-project.png) 
+        - [Tablet](https://michaelcwalsh7.github.io/milestone-project-1/assets/images/README-images/wireframes/tablet/tablet-example-project.png) 
+        - [Desktop](https://michaelcwalsh7.github.io/milestone-project-1/assets/images/README-images/wireframes/desktop/desktop-example-project.png)
 
     -   Get in Touch Wireframes - 
-        - [Mobile](https://github.com/) 
-        - [Tablet](https://github.com/) 
-        - [Desktop](https://github.com/)
+        - [Mobile](https://michaelcwalsh7.github.io/milestone-project-1/assets/images/README-images/wireframes/mobile/mobile-get-in-touch.png) 
+        - [Tablet](https://michaelcwalsh7.github.io/milestone-project-1/assets/images/README-images/wireframes/tablet/tablet-get-in-touch.png) 
+        - [Desktop](https://michaelcwalsh7.github.io/milestone-project-1/assets/images/README-images/wireframes/desktop/desktop-get-in-touch.png)
 
 ## Features
 
