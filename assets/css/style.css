@@ -115,6 +115,10 @@ a:hover {
     color: inherit;
 }
 
+.row {
+    --bs-gutter-x: 0;
+}
+
 .list-inline-item:not(:last-child) {
     margin: 0;
 }
@@ -415,7 +419,7 @@ a:hover {
 /* needs to be changed but we're getting there */
 
 .project-links-container {
-    padding: 10px 0px 10px 4px;
+    padding: 10px 0px 10px 0px;
 }
 
 #writingSection .col-12 h1 {
@@ -457,7 +461,10 @@ a:hover {
     font-family: 'Montserrat', sans-serif;
 }
 
-
+.large-project-link a img {
+    min-width: 100%;
+    opacity: 50%;
+}
 
 
 
@@ -693,22 +700,14 @@ a:hover {
 }
 
 @media (min-width: 992px) {
-    .project-links-container, .project-description {
-        display: none;
+
+    .project-links-container, .project-item .main-title {
+        display: none!important;
     }
 
-    #projectsContainer {
-        padding-bottom: 11%;
-        height: 30%;        
-
-    }
-
-    .project-section {
-        border-right: 2px solid black;
-    }
-
-    .project-item {
-        padding-right: 0;
+    .project-description {
+        font-size: 1.4em;
+        text-align: center;
     }
 }
 
