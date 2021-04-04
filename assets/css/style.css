@@ -701,13 +701,21 @@ a:hover {
 
 @media (min-width: 992px) {
 
-    .project-links-container, .project-item .main-title {
+    .project-links-container {
         display: none!important;
     }
 
     .project-description {
         font-size: 1.8em;
         text-align: center;
+    }
+
+    .main-title {
+        text-align: center;
+        font-size: 3.3em;
+        font-weight: 600;
+        padding-top: 30px;
+        padding-bottom: 10px;        
     }
 }
 
