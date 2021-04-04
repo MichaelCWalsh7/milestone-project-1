@@ -461,7 +461,7 @@ a:hover {
     font-family: 'Montserrat', sans-serif;
 }
 
-.large-project-link a img {
+.large-project-image a img {
     min-width: 100%;
     opacity: 50%;
 }
@@ -706,7 +706,7 @@ a:hover {
     }
 
     .project-description {
-        font-size: 1.4em;
+        font-size: 1.8em;
         text-align: center;
     }
 }
