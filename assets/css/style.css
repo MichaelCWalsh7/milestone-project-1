@@ -483,6 +483,17 @@ a:hover {
     font-family: 'Parisienne', cursive;    
 }
 
+.project-text-container {
+    padding: 30px;
+    font-family: 'Shippori Mincho', serif;  
+    font-size: 1.5em;
+    position: relative;
+    text-align: center;
+}
+
+.project-text-content {
+    text-align: center;
+}
 
 
 
