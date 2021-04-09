@@ -485,10 +485,12 @@ a:hover {
 
 .project-text-content {
     padding: 30px;
+    margin: 10px;
     font-family: 'Shippori Mincho', serif;  
     font-size: 1.5em;
     position: relative;
-    
+    background-color: #F6E1B6;
+    border: 1px solid;
 }
 
 
