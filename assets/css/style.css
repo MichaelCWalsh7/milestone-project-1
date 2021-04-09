@@ -467,9 +467,8 @@ a:hover {
 .large-project-image a img {
     min-width: 100%;
     opacity: 50%;
-    max-height: 900px;
+    max-height: 1000px;
 }
-
 
 
 
@@ -698,11 +697,23 @@ a:hover {
     }
 }
 
+@media (min-width: 576px) and (max-width: 650px) {
+    .job-details {
+        margin: 8px 50px; 
+    }
+}
+
 @media (min-width: 992px) and (max-width: 1130px) {
     .job-details {
         margin: 8px 20px; 
     }
 
+}
+
+@media (min-width: 992px) and (max-width: 1070px) {
+    .job-details{
+        margin-left: 28px;
+    }
 }
 
 @media (min-width: 992px) {
@@ -720,7 +731,7 @@ a:hover {
         text-align: center;
         font-size: 3.3em;
         font-weight: 600;
-        padding-top: 30px;
+        padding-top: 50px;
         padding-bottom: 10px;        
     }
 }
