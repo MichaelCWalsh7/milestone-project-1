@@ -465,9 +465,9 @@ a:hover {
 }
 
 .large-project-image a img {
-    min-width: 100%;
+    width: 100%;
     opacity: 50%;
-    max-height: 1000px;
+    height: 75vh;
 }
 
 
