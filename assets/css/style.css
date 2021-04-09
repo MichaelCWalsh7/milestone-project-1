@@ -654,6 +654,17 @@ a:hover {
 /* Mobile & Tablet */
 
 @media(max-width: 991px) {
+    
+     .hero-image-container{
+    background: url("../images/hero-images/sunny-cropped.png") no-repeat top;
+    height: 90vh;
+    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed; 
+    }
     .navbar-light .navbar-brand, .navbar-brand{
         width: auto;
     }
