@@ -328,6 +328,9 @@ a:hover {
 
 /* ===========================Currently================================= */
 
+#currentlyContainer {
+    margin-bottom: 3%;
+}
 
 #currently {
     padding:12px;
@@ -839,7 +842,11 @@ a:hover {
         font-weight: 600;
         padding-top: 50px;
         padding-bottom: 10px;        
-    }    
+    }
+
+    .ci-module-section {
+        margin: 40px;
+    }
 }
 
 
