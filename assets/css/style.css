@@ -70,6 +70,9 @@ body {
 
 
 
+
+
+
 /* ===========================Fonts================================= */
 
 .montserrat {
@@ -139,6 +142,8 @@ a:hover {
 
 
 
+
+
 /* ===========================Borders================================= */
 
 
@@ -153,6 +158,9 @@ a:hover {
 .top-border-divider-thick {
     border-top: 6px solid black;
 }
+
+
+
 
 
 
@@ -235,6 +243,10 @@ a:hover {
 
 
 
+
+
+
+
 /* ===========================Hero Image================================= */
 
 .hero-image-container{
@@ -272,6 +284,10 @@ a:hover {
 
 
 
+
+
+
+
 /* ===========================Home Info================================= */
 
 .home-info-container {
@@ -288,6 +304,21 @@ a:hover {
 .home-info-section p {
     font-size: 120%;
 }
+
+#aboutMe p {
+    padding-left: 20px;
+}
+
+#whoAmI p {
+    padding-right: 8px;
+}
+
+
+
+
+
+
+
 
 
 
@@ -330,6 +361,11 @@ a:hover {
 #diplomaProgressBar {
     text-align: left;
 }
+
+
+
+
+
 
 
 
@@ -387,6 +423,12 @@ a:hover {
       /* the width margin is a little jank and could be cleaner... */
       
 }
+
+
+
+
+
+
 
 
 
@@ -498,6 +540,16 @@ a:hover {
 
 
 
+
+
+
+
+
+
+
+
+
+
 /* ===========================Get in Touch================================= */
 
 #getInTouch {
@@ -591,6 +643,7 @@ a:hover {
 
 
 
+
 /* ===========================Modals================================= */
 
 
@@ -603,6 +656,14 @@ a:hover {
     font-size: 1.3rem;
     margin: 21px auto;
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -646,6 +707,16 @@ a:hover {
     padding-top: 10px;
     padding-left: 15px;
 }
+
+
+
+
+
+
+
+
+
+
 
 /* ===========================Media Queries================================= */
 
@@ -774,6 +845,7 @@ a:hover {
 
 
 
+
 /* ===========================Psuedo-classes================================= */
 
 
@@ -799,6 +871,8 @@ a:hover {
     box-shadow: 0 0 0 0.25rem rgb(130 138 145 / 50%);
 }
 /* needs to change... */
+
+
 
 
 
