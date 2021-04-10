@@ -1,10 +1,5 @@
 /* ================================TEMPORARY CODE FOR A STICKY FOOTER & NO HORIZONTAL SCROLL */
 
-/* html, body {
-    max-width: 100%;
-    overflow-x: hidden;
-}
-
 html {
   height: 100%;
 }
@@ -19,7 +14,7 @@ body {
 .footer {
   grid-row-start: 2;
   grid-row-end: 3;
-}  */
+} 
 
 /* ================================/TEMPORARY CODE FOR A STICKY FOOTER & NO HORIZONTAL SCROLL */
 
@@ -95,6 +90,10 @@ body {
 
 
 /* ===========================General Styling================================= */
+
+html, body {
+    height: 100%!important;
+}
 
 body {
     font-family: 'Shippori Mincho', serif;
@@ -499,11 +498,6 @@ a:hover {
 
 
 
-
-
-
-
-
 /* ===========================Get in Touch================================= */
 
 #getInTouch {
@@ -669,6 +663,7 @@ a:hover {
     background-size: cover;
     background-attachment: fixed; 
     }
+
     .navbar-light .navbar-brand, .navbar-brand{
         width: auto;
     }
@@ -704,6 +699,7 @@ a:hover {
     #collabInfo h1, #employInfo h1 {
         padding-top: 0;
     }
+
 }
 
 @media(max-width: 575px) {
@@ -771,7 +767,7 @@ a:hover {
         font-weight: 600;
         padding-top: 50px;
         padding-bottom: 10px;        
-    }
+    }    
 }
 
 
