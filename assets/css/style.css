@@ -1,6 +1,6 @@
 /* ================================TEMPORARY CODE FOR A STICKY FOOTER & NO HORIZONTAL SCROLL */
 
-html, body {
+/* html, body {
     max-width: 100%;
     overflow-x: hidden;
 }
@@ -19,7 +19,7 @@ body {
 .footer {
   grid-row-start: 2;
   grid-row-end: 3;
-} 
+}  */
 
 /* ================================/TEMPORARY CODE FOR A STICKY FOOTER & NO HORIZONTAL SCROLL */
 
@@ -240,7 +240,7 @@ a:hover {
 
 .hero-image-container{
     background: url("../images/hero-images/Sunny.jpeg") no-repeat top;
-    height: 90vh;
+    height: 75vh;
     
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -302,6 +302,10 @@ a:hover {
 #currently {
     padding:12px;
     position: relative;
+}
+
+#currently h1, #currently p {
+    text-align: center;
 }
 
 .ci-module-section {
@@ -478,14 +482,14 @@ a:hover {
     text-align: center;
     font-size: 3.3em;
     font-weight: 600;
-    padding-top: 50px;
-    padding-bottom: 10px;
+    padding-top: 60px;
+    padding-bottom: 20px;
     font-family: 'Parisienne', cursive;    
 }
 
 .project-text-content {
     padding: 30px;
-    margin: 10px;
+    margin: 10px 10px 35px 10px;
     font-family: 'Shippori Mincho', serif;  
     font-size: 1.5em;
     position: relative;
