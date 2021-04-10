@@ -344,8 +344,9 @@ a:hover {
 }
 
 .ci-module-section img {
-    max-height: 200px;
+    max-height: 120px;
     padding: 10px 0;
+        
 }
 
 .progress-bar {
@@ -353,10 +354,10 @@ a:hover {
     font-family: 'Montserrat', sans-serif;
 }
 
-#pythonLogo, #djangoLogo, #diplomaIcon {
+/* #pythonLogo, #djangoLogo, #diplomaIcon {
     max-width: 300px;
     height: 200px;
-}
+} */
 
 #diplomaProgressBar {
     text-align: left;
