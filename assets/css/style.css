@@ -329,7 +329,7 @@ a:hover {
 /* ===========================Currently================================= */
 
 #currentlyContainer {
-    margin-bottom: 3%;
+    margin-bottom: 3%;    
 }
 
 #currently {
@@ -677,9 +677,18 @@ a:hover {
     /* margin-top: 33%; */
 }
 
-#footerNametagLink {
-    width: 105%;
-    height: 100%;
+#footerCopyright {
+    background-color: #960018;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding-top: 40px;
+
+}
+
+#footerNametagLink p {
+    font-size: 0.35em;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #footerCv {
@@ -820,6 +829,7 @@ a:hover {
         margin-left: 28px;
     }
 }
+
 
 @media (min-width: 992px) {
 
