@@ -252,6 +252,7 @@ a:hover {
 .hero-image-container{
     background: url("../images/hero-images/Sunny.jpeg") no-repeat top;
     height: 75vh;
+    /* Maybe this would be better as pixels */
     
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -737,6 +738,12 @@ a:hover {
     }
 
 }
+
+@media(min-width: 1300px) {
+    .project-image a img {
+        height: 550px;
+    }
+} 
 
 @media (min-width: 576px) and (max-width: 991px) {
     .job-section {
