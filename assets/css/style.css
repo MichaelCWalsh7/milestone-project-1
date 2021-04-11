@@ -741,7 +741,7 @@ a:hover {
 
 @media(min-width: 1300px) {
     .project-image a img {
-        height: 650px;
+        height: 500px;
     }
 } 
 
@@ -809,6 +809,10 @@ a:hover {
         font-weight: 600;
         padding-top: 50px;
         padding-bottom: 10px;        
+    }
+
+    #projectsHeader {
+        padding-top: 30px;
     }
 
     .ci-module-section {
