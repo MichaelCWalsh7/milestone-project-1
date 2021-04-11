@@ -442,71 +442,22 @@ a:hover {
     padding-right: 0;
 }
 
-.project-link {
+
+.project-title {
     text-align: center;
-    box-sizing: border-box;
-    width: 100%;
-    height: 100%;    
-    border: 1px dotted black;    
-    font-size: 1.5em;
-    margin-bottom: 7px;
-    padding: 22% 0px;
-}
-
-/* .project-link a {
-    
-} */
-
-
-/* needs to be changed but we're getting there */
-
-.project-links-container {
-    padding: 10px 0px 10px 0px;
+    text-decoration: underline;
+    margin-top: 30px;
+    font-size: 2em;
 }
 
 #writingSection .col-12 h1 {
     padding-top: 15px;
 }
 
-#loveRunningLink {
-    background: linear-gradient(75deg, lightpink 40%, cyan);
-    font-family: 'Oswald', sans-serif;
-}
-
-#rosieCvLink {
-    background: linear-gradient(75deg, #e67e22 40%, #525252);
-    color: white;
-    font-family: 'Exo', sans-serif;
-}
-
-#personalWebsiteLink {
-    background: linear-gradient(75deg, #960018 40%, #474747);
-    color: white;
-    font-family: 'Parisienne', cursive;
-}
-
-#chapter1Link, #chapter2Link {
-    background: linear-gradient(75deg, #E4C638 40%, #156F04);    
-    font-family: 'Shippori Mincho', serif;
-}
-
-
-#shortStoryLink {
-    background: linear-gradient(75deg, grey 40%, gold);
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-}
-
-#poemLink {
-    background: linear-gradient(75deg, red 40%, black);
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.large-project-image a img {
+.project-image a img {
     width: 100%;
     opacity: 50%;
-    height: 75vh;
+    height: 190px;
 }
 
 
@@ -725,7 +676,7 @@ a:hover {
 
 /* Mobile & Tablet */
 
-@media(max-width: 991px) {
+@media(max-width: 992px) {
     
      .hero-image-container{
     background: url("../images/hero-images/sunny-cropped.png") no-repeat top;
@@ -781,12 +732,20 @@ a:hover {
     margin: 100px 0;
     }
 
+    .project-image a img {
+        height: 400px;
+    }
+
 }
 
 @media (min-width: 576px) and (max-width: 991px) {
     .job-section {
     margin: 40px 0;
     }
+
+    .project-image a img {
+        height: 300px;
+    } 
 }
 
 @media(max-width: 414px) {
@@ -832,11 +791,6 @@ a:hover {
 
 
 @media (min-width: 992px) {
-
-    .project-links-container {
-        display: none!important;
-    }
-
     .project-description {
         font-size: 1.8em;
         text-align: center;
