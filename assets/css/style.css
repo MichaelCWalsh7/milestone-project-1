@@ -400,14 +400,24 @@ a:hover {
 }
 
 .job-details {
-    list-style-type: none;
-    /* padding: 16px 5px;
-    margin: 8px 4px;        */
+    list-style-type: none;    
 }
 
 .job-description h5 {
     text-align: center;
+    text-decoration: underline;
 }
+
+.job-description p {
+    padding-left: 7px;
+}
+
+.job-sections-container {
+    padding-left: 5px;
+}
+
+
+
 
 
 
