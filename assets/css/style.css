@@ -401,11 +401,8 @@ a:hover {
 
 .job-details {
     list-style-type: none;
-    font-size: large;    
-    font-family: 'Montserrat', sans-serif;
-    padding: 16px 5px;
-    margin: 8px 4px; 
-      
+    /* padding: 16px 5px;
+    margin: 8px 4px;        */
 }
 
 
