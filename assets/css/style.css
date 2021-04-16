@@ -605,6 +605,10 @@ a:hover {
     margin: 21px auto;
 }
 
+.form-control {
+    border: 3px solid #ced4da;
+    margin-top: 10px;
+}
 
 
 
