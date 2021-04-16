@@ -437,6 +437,7 @@ a:hover {
 
 #projectsContainer {
     padding: 0;
+    text-align: center;
 }
 
 .project-section, .project-item {
@@ -742,6 +743,7 @@ a:hover {
 @media(min-width: 1300px) {
     .project-image a img {
         height: 500px;
+        width: 1400px;
     }
 } 
 
