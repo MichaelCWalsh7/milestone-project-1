@@ -760,6 +760,15 @@ a:hover {
     .project-image a img {
         height: 300px;
     } 
+
+    .contact-section {
+        margin-top: 80px;
+    }
+
+    #employerSection {
+        border-top: none;
+        border-bottom: none;
+    }
 }
 
 @media(max-width: 414px) {
