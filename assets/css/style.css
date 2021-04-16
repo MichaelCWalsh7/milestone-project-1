@@ -453,7 +453,8 @@ a:hover {
 }
 
 #writingSection .col-12 h1 {
-    padding-top: 15px;
+    padding-top: 35px;
+    padding-bottom: 35px;
 }
 
 .project-image a img {
