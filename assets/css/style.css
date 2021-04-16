@@ -449,7 +449,7 @@ a:hover {
     text-align: center;
     text-decoration: underline;
     margin-top: 30px;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 #writingSection .col-12 h1 {
@@ -744,6 +744,10 @@ a:hover {
     .project-image a img {
         height: 500px;
         width: 1400px;
+    }
+
+    .project-title {
+        font-size: 2em;
     }
 } 
 
