@@ -738,6 +738,16 @@ a:hover {
     #postTruthFuneral {
         font-size: 1.1em;
     }
+
+    .contact-section {
+        margin-top: 50px;        
+    }
+
+    #employerSection {
+        border-top: none;
+        border-bottom: none;
+    }
+
 }
 
 @media(min-width: 992px) {
