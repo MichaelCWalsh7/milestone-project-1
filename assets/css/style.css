@@ -730,6 +730,12 @@ a:hover {
 
 }
 
+@media (max-width: 576px) {
+    #postTruthFuneral {
+        font-size: 1.1em;
+    }
+}
+
 @media(min-width: 992px) {
     .job-section {
     margin: 100px 0;
