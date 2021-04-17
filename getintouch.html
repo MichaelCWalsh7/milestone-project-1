@@ -95,30 +95,32 @@
                                         <button type="button" class="btn-close" data-bs-dismiss="modal"
                                             aria-label="Close"></button>
                                     </div>
-                                    <div class="modal-body">
-                                        <div class="form-floating">
-                                            <input type="text" name="name" id="collabFullName" class="form-control"
-                                                placeholder="Name" required>
-                                            <label for="collabFullName">Name</label>
+                                    <form>
+                                        <div class="modal-body">
+                                            <div class="form-floating">
+                                                <input type="text" name="name" id="collabFullName" class="form-control"
+                                                    placeholder="Name" required>
+                                                <label for="collabFullName" class="form-label">Name</label>
+                                            </div>
+                                            <div class="form-floating">
+                                                <input type="email" class="form-control" id="collabEmail"
+                                                    placeholder="name@example.com" required>
+                                                <label for="collabEmail" class="form-label">Email address</label>
+                                            </div>
+                                            <div class="form-floating">
+                                                <textarea class="form-control" placeholder="Project description"
+                                                    id="projectDescription" style="height: 200px" required></textarea>
+                                                <label for="projectDescription" class="form-label">Project
+                                                    description</label>
+                                            </div>
                                         </div>
-                                        <div class="form-floating">
-                                            <input type="email" class="form-control" id="collabEmail"
-                                                placeholder="name@example.com">
-                                            <label for="collabEmail">Email address</label>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="submit"
+                                                class="btn btn-primary programmer-button background-programmer-green">Submit</button>
                                         </div>
-                                        <div class="form-floating">
-                                            <textarea class="form-control" placeholder="Project description"
-                                                id="projectDescription" style="height: 200px"></textarea>
-                                            <label for="projectDescription">Project description</label>
-                                        </div>
-
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary"
-                                            data-bs-dismiss="modal">Close</button>
-                                        <button type="button"
-                                            class="btn btn-primary programmer-button background-programmer-green">Submit</button>
-                                    </div>
+                                    </form>
                                 </div>
                             </div>
                         </div>
@@ -153,25 +155,29 @@
                                         <button type="button" class="btn-close" data-bs-dismiss="modal"
                                             aria-label="Close"></button>
                                     </div>
-                                    <div class="modal-body">
-                                        <div class="form-floating">
-                                            <input type="text" name="name" id="employFullName" class="form-control"
-                                                placeholder="Name" required>
-                                            <label for="employFullName">Name</label>
-                                        </div>
-                                        <div class="form-floating">
-                                            <input type="email" class="form-control" id="employEmail"
-                                                placeholder="name@example.com">
-                                            <label for="employEmail">Email address</label>
-                                        </div>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary"
-                                            data-bs-dismiss="modal">Close</button>
-                                        <button type="button"
-                                            class="btn btn-primary background-employer-blue employer-button">Submit</button>
 
-                                    </div>
+                                    <form>
+                                        <div class="modal-body">
+                                            <div class="form-floating">
+                                                <input type="text" name="name" id="employFullName" class="form-control"
+                                                    placeholder="Name" required>
+                                                <label for="employFullName">Name</label>
+                                            </div>
+                                            <div class="form-floating">
+                                                <input type="email" class="form-control" id="employEmail"
+                                                    placeholder="name@example.com" required>
+                                                <label for="employEmail">Email address</label>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="submit"
+                                                class="btn btn-primary background-employer-blue employer-button">Submit
+                                            </button>
+                                        </div>
+                                    </form>
+
                                     <div id="modalCvDownload">
                                         <div class="top-border-divider-thick modal-header">
                                             <h4 class="modal-title">OR (if you'd rather...)</h4>
@@ -189,7 +195,6 @@
                     </div>
                 </div>
             </div>
-
 
 
             <div class="row contact-section" id="newsletterSection">
@@ -225,24 +230,26 @@
                                     <button type="button" class="btn-close" data-bs-dismiss="modal"
                                         aria-label="Close"></button>
                                 </div>
-                                <div class="modal-body">
-                                    <div class="form-floating">
-                                        <input type="text" name="name" id="newsletterFullName" class="form-control"
-                                            placeholder="Name" required>
-                                        <label for="newsletterFullName">Name</label>
+                                <form>
+                                    <div class="modal-body">
+                                        <div class="form-floating">
+                                            <input type="text" name="name" id="newsletterFullName" class="form-control"
+                                                placeholder="Name" required>
+                                            <label for="newsletterFullName">Name</label>
+                                        </div>
+                                        <div class="form-floating">
+                                            <input type="email" class="form-control" id="newsletterEmail"
+                                                placeholder="name@example.com" required>
+                                            <label for="newsletterEmail">Email address</label>
+                                        </div>
                                     </div>
-                                    <div class="form-floating">
-                                        <input type="email" class="form-control" id="newsletterEmail"
-                                            placeholder="name@example.com">
-                                        <label for="newsletterEmail">Email address</label>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                        <button type="submit"
+                                            class="btn btn-primary background-newsletter-red newsletter-button">Subscribe</button>
                                     </div>
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary"
-                                        data-bs-dismiss="modal">Close</button>
-                                    <button type="button"
-                                        class="btn btn-primary background-newsletter-red newsletter-button">Subscribe</button>
-                                </div>
+                                </form>
                             </div>
                         </div>
                     </div>
