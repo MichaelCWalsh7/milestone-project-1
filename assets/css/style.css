@@ -735,7 +735,7 @@ a:hover {
 }
 
 @media (max-width: 576px) {
-    #postTruthFuneral {
+    .project-text-content {
         font-size: 1.1em;
     }
 
@@ -788,6 +788,10 @@ a:hover {
     #employerSection {
         border-top: none;
         border-bottom: none;
+    }
+
+    .project-text-content {
+        font-size: 1.3em;
     }
 }
 
