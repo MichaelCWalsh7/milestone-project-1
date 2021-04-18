@@ -739,6 +739,11 @@ a:hover {
         padding-top: 0;
     }
 
+    .project-suggestions {
+        text-align: center;
+        font-size: 1.5em;
+    }
+
 }
 
 @media (max-width: 576px) {
@@ -853,7 +858,7 @@ a:hover {
 
 
 @media (min-width: 992px) {
-    .project-description {
+    .project-description, .project-suggestions {
         font-size: 1.8em;
         text-align: center;
     }
