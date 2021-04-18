@@ -770,6 +770,10 @@ a:hover {
     padding-top: 16px;
     }
 
+    #aboutMe p {
+    padding-left: 0px
+    }
+
 }
 
 @media(min-width: 992px) {
