@@ -457,12 +457,19 @@ a:hover {
     padding-bottom: 35px;
 }
 
+.project-description {
+    padding: 0 4px;
+}
+
 .project-image a img {
     width: 100%;
     opacity: 50%;
     height: 190px;
 }
 
+#projectsHeading {
+    padding-top: 20px;
+}
 
 
 /* ===========================Individual Projects================================= */
@@ -857,10 +864,6 @@ a:hover {
         font-weight: 600;
         padding-top: 50px;
         padding-bottom: 10px;        
-    }
-
-    #projectsHeader {
-        padding-top: 30px;
     }
 
     .ci-module-section {
