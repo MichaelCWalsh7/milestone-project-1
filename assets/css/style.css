@@ -382,7 +382,7 @@ a:hover {
 /* ===========================Work History================================= */
 
 #workHistory h1 {
-    padding-top: 20px;
+    padding-top: 40px;
 }
 
 .job-image {
@@ -410,7 +410,7 @@ a:hover {
 }
 
 .job-description p {
-    padding-left: 7px;
+    padding-left: 14px;
 }
 
 .job-sections-container {
@@ -687,7 +687,7 @@ a:hover {
     
      .hero-image-container{
     background: url("../images/hero-images/sunny-cropped.png") no-repeat top;
-    height: 90vh;
+    height: 75vh;
     
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -748,6 +748,14 @@ a:hover {
         border-bottom: none;
     }
 
+    .job-description p {
+    padding-left: 4px;
+    }
+
+    #workHistory h1 {
+    padding-top: 16px;
+    }
+
 }
 
 @media(min-width: 992px) {
@@ -774,7 +782,7 @@ a:hover {
 
 @media (min-width: 576px) and (max-width: 991px) {
     .job-section {
-    margin: 40px 0;
+    margin: 50px 0;
     }
 
     .project-image a img {
