@@ -3,7 +3,7 @@
 
 [View the live project here.](https://michaelcwalsh7.github.io/milestone-project-1/)
 
-This is a personal website advertising the skills and availability for work of Michael Walsh.
+This is a personal website advertising the skills and availability for work of Michael Walsh, herein referred to as 'the creator'.
 
 <h2 align="center"><img src="assets/images/README-images/README-hero-image.png"</h2>
 
@@ -21,7 +21,7 @@ This is a personal website advertising the skills and availability for work of M
 
     -   #### Returning Visitor Goals
 
-        1. As a Returning Visitor, I want to be able to paint a picture of the creator's work history and education.
+        1. As a Returning Visitor, I want to be able to paint a picture of the creator's work history.
         2. As a Returning Visitor, I want to take a look at the projects that the creator has worked on in the past  and compare them to 
         my current ambitions for my own projects.
         3. As a Returning Visitor, I want to be able to contact the user with any questions or queries that I may have with the information
@@ -158,13 +158,3 @@ This is a personal website advertising the skills and availability for work of M
     - Microsoft Paint was used to  crop & resize images, as well for changing the file types of images saved from online.
 1.  [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
-
-
-## Testing
-
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
-
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
-
-### Testing User Stories from User Experience (UX) Section
