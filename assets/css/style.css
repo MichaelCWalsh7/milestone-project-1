@@ -221,6 +221,18 @@ a:hover {
     background: rgba(255, 255, 51, 0.4);
 }
 
+#navLinkWorkHistoryActive {
+    background: rgba(0, 228, 0, 0.35);
+}
+
+.nav-link-projects-active {
+    background: rgba(165, 39, 206, 0.45);
+}
+
+#navLinkGetInTouchActive {
+    background: rgba(0, 10, 209, 0.2);
+}
+
 .navbar {
     padding: 0;
 }
