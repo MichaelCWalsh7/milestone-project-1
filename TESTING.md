@@ -204,3 +204,35 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
 Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the 
 buttons and more detailed explanations of the above process.
+
+## Credits
+
+### Code
+
+-   The sticky footer code came from [here.](https://css-tricks.com/couple-takes-sticky-footer/)
+
+-   [Bootstrap 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/): Bootstrap Library used throughout the project to make site responsive using the Bootstrap Grid System.
+    It was used in many different places all over the site, but in particular for the navigation bar and the modals.
+
+-   [Hover.css](https://ianlunn.github.io/Hover/) for the hover animations in the navigation bar buttons.
+
+### Content
+
+-   All content was written by the developer. Including all litereary projects.
+
+
+### Media
+
+-   All Images were created by the developer.
+
+## Inspirations
+
+- [Gary Sheng's website](http://www.garysheng.com/) for the inspiration on how to place a hero image.
+
+- [Gari Cruze's website](http://www.garicruze.com/) for inspiration on the navbar. Though in the end mine looked very different.
+
+### Acknowledgements
+
+-   My Mentor for continuous helpful feedback.
+
+-   Tutor support at Code Institute for their support.
