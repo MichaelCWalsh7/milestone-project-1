@@ -1,4 +1,4 @@
-/* ================================TEMPORARY CODE FOR A STICKY FOOTER & NO HORIZONTAL SCROLL */
+/* ================================GRID CODE FOR A STICKY FOOTER & NO HORIZONTAL SCROLL */
 
 html {
   height: 100%;
@@ -19,7 +19,6 @@ body {
   grid-row-end: 3;
 } 
 
-/* ================================/TEMPORARY CODE FOR A STICKY FOOTER & NO HORIZONTAL SCROLL */
 
 
 
