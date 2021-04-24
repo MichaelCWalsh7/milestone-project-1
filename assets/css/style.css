@@ -257,7 +257,7 @@ a:hover {
 /* ===========================Hero Image================================= */
 
 .hero-image-container{
-    background: url("../images/hero-images/Sunny.jpeg") no-repeat top;
+    background: url("../images/hero-images/sunny.jpeg") no-repeat top;
     height: 75vh;  
     -webkit-background-size: cover;
     -moz-background-size: cover;
