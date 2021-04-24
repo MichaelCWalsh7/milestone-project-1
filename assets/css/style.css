@@ -215,8 +215,10 @@ a:hover {
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
     color: antiquewhite;
     text-decoration: underline;
-    text-decoration-thickness: 0.3em;
-    text-underline-offset: 0.3em;
+}
+
+#navLinkHomeActive {
+    background: rgba(255, 255, 51, 0.4);
 }
 
 .navbar {

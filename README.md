@@ -22,7 +22,7 @@ This is a personal website advertising the skills and availability for work of M
     -   #### Returning Visitor Goals
 
         1. As a Returning Visitor, I want to be able to paint a picture of the creator's work history.
-        2. As a Returning Visitor, I want to take a look at the projects that the creator has worked on in the past  and compare them to 
+        2. As a Returning Visitor, I want to take a look at the projects that the creator has worked on in the past and compare them to 
         my current ambitions for my own projects.
         3. As a Returning Visitor, I want to be able to contact the user with any questions or queries that I may have with the information
         provided.
@@ -41,10 +41,11 @@ This is a personal website advertising the skills and availability for work of M
 
 *   ### Design
     -   #### Colour Scheme
-        - The two main colours used (right now) are a burgundyish red and a dark matte grey. The intention was to have a mixture of 
+        - The two main colours used are a burgundyish red and a dark matte grey. The intention was to have a mixture of 
         a modern and a more romantic aesthetic; with the matte grey and burgundy representing those two ideas respectively. 
         - There is also a cream-white colour in use as it provides a nice contrast with the burgundy red. 
-        - *Talk about navbar colours here*
+        - The navbar hover colours are a range of different colours designed to visaully stand out to the user and make the individual sections
+        more memorable.
 
     -   #### Typography
         - The two main fonts in use throughout the website are Shippori Mincho, and Montserrat, with Sans Serif as the fallback font for 
