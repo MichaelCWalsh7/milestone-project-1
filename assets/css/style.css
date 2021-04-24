@@ -22,12 +22,6 @@ body {
 
 
 
-
-
-
-
-
-
 /* ===========================Colours================================= */
 
 .burgundy-color {
@@ -146,6 +140,8 @@ a:hover {
 
 
 
+
+
 /* ===========================Borders================================= */
 
 
@@ -160,9 +156,6 @@ a:hover {
 .top-border-divider-thick {
     border-top: 6px solid black;
 }
-
-
-
 
 
 
@@ -261,44 +254,17 @@ a:hover {
 
 
 
-
-
 /* ===========================Hero Image================================= */
 
 .hero-image-container{
     background: url("../images/hero-images/Sunny.jpeg") no-repeat top;
-    height: 75vh;
-    /* Maybe this would be better as pixels */
-    
+    height: 75vh;  
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background-attachment: fixed;  
-
-    /* animation-name: hero-pan;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-    overflow: hidden;
-    z-index: -1;
-    width: 150vw;
 }
-
-@keyframes hero-pan {
-    from{
-    transform: translateX(0)
-  }
-  to{
-    transform: translateX(5%) 
-  } */
-    
-  
-}
-
-
-
-
-
 
 
 
@@ -329,11 +295,6 @@ a:hover {
 #whoAmI p {
     padding-right: 8px;
 }
-
-
-
-
-
 
 
 
@@ -386,15 +347,6 @@ a:hover {
 
 
 
-
-
-
-
-
-
-
-
-
 /* ===========================Work History================================= */
 
 #workHistory h1 {
@@ -433,17 +385,6 @@ a:hover {
 .job-sections-container {
     padding-left: 5px;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -514,14 +455,6 @@ a:hover {
 
 
 
-
-
-
-
-
-
-
-
 /* ===========================Get in Touch================================= */
 
 #getInTouch {
@@ -532,8 +465,8 @@ a:hover {
 
 
 #employerSection {
-     border-top: black solid 4px;
-     border-bottom: black solid 4px;
+    border-top: black solid 4px;
+    border-bottom: black solid 4px;
 }
 
 #collabImage img, #employImage img {
@@ -640,17 +573,12 @@ a:hover {
 
 
 
-
-
-
-
 /* ===========================Footer================================= */
 
 #footerContainer {
     padding-left: 0;
     background-color: #474747;
     letter-spacing: 1px;
-    /* margin-top: 33%; */
 }
 
 #footerCopyright {
@@ -659,7 +587,6 @@ a:hover {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     padding-top: 40px;
-
 }
 
 #footerNametagLink p {
@@ -692,14 +619,6 @@ a:hover {
     padding-top: 10px;
     padding-left: 22px;
 }
-
-
-
-
-
-
-
-
 
 
 
@@ -763,6 +682,9 @@ a:hover {
 
 }
 
+/* Mobile Only */
+
+
 @media (max-width: 576px) {
     .project-text-content {
         font-size: 1.1em;
@@ -791,6 +713,8 @@ a:hover {
 
 }
 
+/* Large Screens */
+
 @media(min-width: 992px) {
     .job-section {
     margin: 100px 0;
@@ -800,7 +724,26 @@ a:hover {
         height: 400px;
     }
 
+    .project-description, .project-suggestions {
+        font-size: 1.8em;
+        text-align: center;
+    }
+
+    .main-title {
+        text-align: center;
+        font-size: 3.3em;
+        font-weight: 600;
+        padding-top: 50px;
+        padding-bottom: 10px;        
+    }
+
+    .ci-module-section {
+        margin: 40px;
+    }
+
 }
+
+/* Very Large Screens */
 
 @media(min-width: 1300px) {
     .project-image a img {
@@ -812,6 +755,8 @@ a:hover {
         font-size: 2em;
     }
 } 
+
+/* Others */
 
 @media (min-width: 576px) and (max-width: 991px) {
     .job-section {
@@ -878,27 +823,6 @@ a:hover {
 }
 
 
-@media (min-width: 992px) {
-    .project-description, .project-suggestions {
-        font-size: 1.8em;
-        text-align: center;
-    }
-
-    .main-title {
-        text-align: center;
-        font-size: 3.3em;
-        font-weight: 600;
-        padding-top: 50px;
-        padding-bottom: 10px;        
-    }
-
-    .ci-module-section {
-        margin: 40px;
-    }
-}
-
-
-
 
 
 
@@ -926,7 +850,7 @@ a:hover {
     border-color: #565e64;
     box-shadow: 0 0 0 0.25rem rgb(130 138 145 / 50%);
 }
-/* needs to change... */
+
 
 
 
