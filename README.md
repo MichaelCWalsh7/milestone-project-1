@@ -29,10 +29,10 @@ This is a personal website advertising the skills and availability for work of M
         4. As a Returning Visitor, I want to be able to download or be emailed a copy of the creator's CV so that I may add a more traditional
         copy to my records.
         5. As a Returning Visitor, I want to be able to quickly and easily see where the creator's skills and abilities lie within the field of 
-        web design, and find out what kind of programming languages and frameworks that they have experience with. 
+        web design, and find out what kind of programming languages and frameworks they have experience with. 
 
     -   #### Frequent User Goals
-        1. As a Frequent User, I want to easily check to see if there are any newly added projects to see.
+        1. As a Frequent User, I want to easily check to see if there are any newly added projects.
         2. As a Frequent User, I want to easily check to see if there are any newly added postings to the Work History section or any other 
         important updates to the creator's employment status.
         3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website 
@@ -53,7 +53,7 @@ This is a personal website advertising the skills and availability for work of M
         - Shippori Mincho is a font based on The Tokyo Tsukiji Type Foundry No. 5 Mincho style. A common font in Japanese and Chinese
         typography, it has a much  more traditional look and feel than it's counterpart, Montserrat. This style is designed with the 
         intention of being used for long-form text setting in novels. As the website contains several instances of long-form dramatic prose, 
-        including: sample chapters from a book, poetry and a short story, it is both attractive and appropriate.
+        including: two sample chapters from a book and a multi-stanza poem, it is both attractive and appropriate.
         - Montserrat, on the other hand has a more modern feel and is a clean font used frequently in programming, so it is both attractive
         and appropriate.
         - The basic idea of having a mixture of two fonts used primarily throughout the website was to further compliment the idea of 
@@ -66,7 +66,7 @@ This is a personal website advertising the skills and availability for work of M
     -   #### Imagery
         - Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. I feel this 
         is well achieved by the close-up, high resolution nature of the image, and it's natural lighting. The hero image is also dual purpose,
-        in that it has a kind of informative function; with first time users able to imply many things about the creator, with even a cursory 
+        in that it has a kind of informative function; with first time users able to imply many things about the creator, with even just a cursory 
         glance at the image. For example, things like: age, gender, ethnicity etc.
         - Other images on the Home page, include icons in the 'Currently' section that represent the various different modules and programming
         languages that I will have been picking up from my progress with the Code Institute. These images offer an appealing variation in
@@ -82,17 +82,12 @@ This is a personal website advertising the skills and availability for work of M
         a fairly generic company logo, making it unlikely to be recognised by users. Other companies however, such as 
         [Supermacs](https://supermacs.ie/) or [English First](https://www.englishfirst.com/), are large-scale, multi-national corporations, 
         that prospective employers may recognise from thier logos alone. 
-        - The Projects section of the website also has a plethora of images in use. However, it is important to note that these images do 
-        not show up on all devices. These images only show up for those using laptops, desktops and larger screens. The decision was made
-        to hide these images on smaller screens, as they took up far too much valuable screen space. In addition, their visually striking nature, 
-        gave a bombardment of visual images that led to a very poor user experience. Instead of the aforementioned images, a large, clickable link
-        replaces the title of the project on both mobile and tablet. This link uses the colours associated with the project as a background, with 
-        a copacetic, bi-colour, gradient effect. The way that the issue of a potential, visual overload was handled on larger screens, was to make 
-        it more pleasant for the user, by utilising the z-index property of CSS3. This made it so that only one image of a project was visible 
-        to the user at any one time. The remaining images were made visible to the user, when the titles of other projects on the left hand-side 
-        were hovered over. This also had the added bonus effect of keeping the entire library of projects on a single, easy to understand & 
-        navigate screen, eliminating the need for the user to have to scroll up and down throught the page to find the many different projects 
-        available.
+        - The Projects section of the website also has a plethora of images in use. However, it is important to note that these images are presented
+        a bit differently to the user accross different devices. On smaller devices, the Projects images show up much like those in the Work history
+        section. Image placement options on smaller devices are very limited, so they essentially appear  as expected. On larger screens though, the images
+        expand. While the Work History images stayed small and to the left on larger screens, the Projects images do not. This is because the Projects 
+        are more than simply just chapters in the creator's career, they repsresent the creator's creatitivty and ability, and thus warrant a more 
+        distintive and striking position on screen. 
 
 
 *  ### Wireframes
@@ -128,7 +123,7 @@ This is a personal website advertising the skills and availability for work of M
 
 -   Interactive elements
 
--   Audio & visual content.
+-   Primarily visual content.
 
 ## Technologies Used
 
@@ -146,9 +141,6 @@ This is a personal website advertising the skills and availability for work of M
 1. [Google Fonts:](https://fonts.google.com/)
     - Google Fonts were used to import the 'Shippori Mincho', 'Montserrat' and 'Parisienne' fonts into the style.css file which are used on 
     all pages throughout the project. 
-    - Google Fonts were also used to import the 'Exo' & 'Oswald' fonts into the style.css file which are fonts not really used in this website,
-    but rather fonts that are native to other projects that I've worked on. The font used in the link to those projects, matches the main heading
-    fonts used on those websites. ('Exo' for Rosie Odenkirk, & 'Oswald' for Love Running)
 1. [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
 1. [Git](https://git-scm.com/)

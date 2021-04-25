@@ -22,9 +22,9 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
         page they will end up at is very clearly.
        2. The navigation bar sticks to the top of the page regardless of how far down the user scrolls. This way, the user can always see and access all of the content on 
        the website that is available to them, in just two or three clicks.
-       3. The sticky navigation bar also ensures that the user never feel trapped, even on mobile where the navigation bar folds into a hamburger menu that most users, 
+       3. The sticky navigation bar also ensures that the user never feels trapped, even on mobile where the navigation bar folds into a hamburger menu that most users, 
         especially prospective web design employers should be very familiar with using. 
-       4. The navigation bar also has a very thick text underline on all resolutions so the user can instantly discern what page they are currently viewing. 
+       4. The navigation bar also has multicoloured visual background effects on the active page, so the user can instantly discern what page they are currently viewing. 
 
     3. As a First Time Visitor, I want to be able to check the employment status and professionalism of the creator, I also want to locate their social media links to see 
        their followings on social media and determine how trustworthy and legitimate they are.
@@ -70,7 +70,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
         creator's CV, or they can click the button below to open/download the PDF.
 
     5. As a Returning Visitor, I want to be able to quickly and easily see where the creators skills and abilities lie within the field of web design find out what kind of programming 
-       languages and frameworks that they have experience with.  
+       languages and frameworks they have experience with.  
         1. The 'Currently' section on the home page informs the user with helpful graphs and images what languages the creator is comfortable with.
         2. The 'Projects' section of the site has various links to projects that the creator has made, but also descriptions of the design process and purpose of the website, which offers further 
         insight into the creator's abilities.
@@ -78,7 +78,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
         should be axiomatic to most users.
     
 -   #### Frequent User Goals
-    1. As a Frequent User, I want to easily check to see if there are any newly added projects to see.
+    1. As a Frequent User, I want to easily check to see if there are any newly added projects.
         1. The user would already be comfortable with the website layout and can easily click the 'Projects' button from anywhere on the website due to the sticky navigation bar.
     
     2. As a Frequent User, I want to easily check to see if there are any newly added postings to the Work History section or any other important updates to the creator's employment status.
@@ -103,15 +103,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   On some mobile devices the Hero Image gets pushed down below the navigation bar.
     - A white gap can be seen before scrolling the further down to see the content peaking out.
--   On Chrome for Android & Desktop, the default zoom of some of the web pages will change from 100% to much larger, which will initiate a horizontal scroll bar and not fit the website 
-    content to the browser viewport.
-    - This initially was a complete mystery, but after some research I eventually found out that experimentally Chrome is rolling out a feature that changes the default zoom for an individual 
-    web page as they think that this web page will be more legible at different zooms.
-    - Why this website in particular was subject to this process remains a mystery, though I suspect it's due to the large resolution of some of the images used. Although all images used are 
-    still scaled to be appropriately viewable at all resolutions
-    - The two fixes that I've implemented for this are setting the max-width of the body and html to 100% of the viewport width and then also setting the default zoom of the body and html to be
-    100% so the browser shouldn't zoom in an inappropriate amount. 
-    - The above fix seems to have solved the issue. However, the inconsistent nature of this bug only appearing sometimes makes further testing quite difficult.
+
 
 
 ### Issues Along The Way
@@ -130,8 +122,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 - **Footer Nametag Issues**
   1. [Click here to see an image of the issue.](https://michaelcwalsh7.github.io/milestone-project-1/assets/images/README-images/TESTING-images/footer-nametag-error.png)
   2. Early in the development cycle, I had included a line of css that set the height of the footer to 100% of the container it was nested in.
-  3. However, this caused an issue where the footer would not quite reach the bottom of the screen but would instead leave a very slim white line of just a few pixels benath hit.
-  4. I then tried to fix this by setting the height of the footer nametag (something that was scrapped for the copyright image now present) to 102% which made it peak out below the 'Download my cv 
+  3. However, this caused an issue where the footer would not quite reach the bottom of the screen but would instead leave a very slim white line of just a few pixels benath it.
+  4. I then tried to fix this by setting the height of the footer nametag (something that was scrapped for the copyright element now present) to 102% which made it peak out below the 'Download my cv 
   here!!' section as shown in the linked image above.
   5. Changing the height of other elements of the footer to follow suit with this change broke it completely.
   6. After taking a break and adopting a "back to square 1" mentality, I deleted the initial declaration of the height: 100%; property of the whole footer. At that point realising, that it was this 
@@ -154,6 +146,19 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
   list items, while still keeping the list text centered in a sensible way.
   3. The fix that i went with in the end was getting some right facing chevrons from [Font Awesome](https://fontawesome.com/) and using them as bulletpoints instead of styling a list with css.
   4. It is admittedly not the most elegant of fixes, but including the [Font Awesome](https://fontawesome.com/) icons did give me more freedom to style and colour them as I liked.
+
+-   **Default Zoom Issues**
+    1. [Click here to see an image of the issue.](https://michaelcwalsh7.github.io/milestone-project-1/assets/images/README-images/TESTING-images/default-zoom-issue.png)
+    2. On Chrome for Android & Desktop, the default zoom of some of the web pages will change from 100% to much larger, which will initiate a horizontal scroll bar and not fit the website 
+    content to the browser viewport.
+    3. This initially was a complete mystery, but after some research I eventually found out that experimentally, Chrome is rolling out a feature that changes the default zoom for an individual 
+    web page to help make it more legible on different screens.
+    4. Why this website in particular was subject to this process remains a mystery, though I suspect it's due to the large resolution of some of the images used. Although all images used are 
+    still scaled to be appropriately viewable at all resolutions
+    5. The two fixes that I've implemented for this are setting the max-width of the body and html to 100% of the viewport width and then also setting the default zoom of the body and html to be
+    100% so the browser shouldn't zoom in an inappropriate amount. 
+    6. The above fix eliminated the issue in testing. The inconsistent nature of this bug only appearing somewhat infrequently, has made more extensive testing somewhat awkward. However all users 
+    that reported encountering the bug have now claimed it is resolved.
 
 ## Deployment
 
