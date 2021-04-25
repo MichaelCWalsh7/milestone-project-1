@@ -14,8 +14,8 @@ This is a personal website advertising the skills and availability for work of M
     -   #### First Time Visitor Goals
         1. As a First Time Visitor, I want to be able to easily understand the purpose of the site and find out more about the 
         creator. For example, age, nationality, professional & personal interests.
-        2. As a First Time Visitor, I want to be able to easliy navigate through the site, and have a clear understanding of what 
-        the purpose of each page is and where it's most pertinnent information is. 
+        2. As a First Time Visitor, I want to be able to easily navigate through the site, and have a clear understanding of what 
+        the purpose of each page is and where it's most pertinent information is. 
         3. As a First Time Visitor, I want to be able to check the employment status and professionalism of the creator, I also want to 
         locate their social media links to see their followings on social media and determine how trustworthy and legitimate they are.
 
@@ -28,8 +28,8 @@ This is a personal website advertising the skills and availability for work of M
         provided.
         4. As a Returning Visitor, I want to be able to download or be emailed a copy of the creator's CV so that I may add a more traditional
         copy to my records.
-        5. As a Returning Visitor, I want to be able to quicly and easily see where the creators skills and abilities lie within the field of 
-        web design find out what kind of programming languages and frameworks that they have experience with. 
+        5. As a Returning Visitor, I want to be able to quickly and easily see where the creator's skills and abilities lie within the field of 
+        web design, and find out what kind of programming languages and frameworks that they have experience with. 
 
     -   #### Frequent User Goals
         1. As a Frequent User, I want to easily check to see if there are any newly added projects to see.
@@ -52,39 +52,39 @@ This is a personal website advertising the skills and availability for work of M
         both in case for any reason the fonts aren't being imported into the site correctly.
         - Shippori Mincho is a font based on The Tokyo Tsukiji Type Foundry No. 5 Mincho style. A common font in Japanese and Chinese
         typography, it has a much  more traditional look and feel than it's counterpart, Montserrat. This style is designed with the 
-        intention of being used for long-form text setting in novels. As the website contains several instances of long-form dramtic prose, 
+        intention of being used for long-form text setting in novels. As the website contains several instances of long-form dramatic prose, 
         including: sample chapters from a book, poetry and a short story, it is both attractive and appropriate.
         - Montserrat, on the other hand has a more modern feel and is a clean font used frequently in programming, so it is both attractive
         and appropriate.
         - The basic idea of having a mixture of two fonts used primarily throughout the website was to further compliment the idea of 
-        blending modern and romantic aethetics, with Shippori Mincho of course representing romantic and Montserrat of course representing
+        blending modern and romantic aesthetics, with Shippori Mincho of course representing romantic and Montserrat of course representing
         the modern.
         - There is also a third font that is present in the footer & header nametag home button areas. This font is Parisienne, with a 
         fallback of cursive in case for any reason the font isn't being imported into the site correctly. This font was used primarily
-        as a way of extending the idea of having aspects of romantic aethetics in the website. 
+        as a way to extend the idea of having aspects of romantic and modern aesthetics on the website. 
 
     -   #### Imagery
         - Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. I feel this 
         is well achieved by the close-up, high resolution nature of the image, and it's natural lighting. The hero image is also dual purpose,
         in that it has a kind of informative function; with first time users able to imply many things about the creator, with even a cursory 
         glance at the image. For example, things like: age, gender, ethnicity etc.
-        - Other images on the Home page include icons in the currently section that represent the various different modules and programming
-        languages that I will have been picking up from my progress with the code institute. These images offer an appealing variation in
-        aesthetic and colour. But, also have an informative aspect to them by quickly and easliy indiciating to the user, what skills and 
+        - Other images on the Home page, include icons in the 'Currently' section that represent the various different modules and programming
+        languages that I will have been picking up from my progress with the Code Institute. These images offer an appealing variation in
+        aesthetic and colour. But, also have an informative aspect to them by quickly and easily indicating to the user, what skills and 
         programming languages the creator is currently able to use, or will be able to use in the near future. Important information for 
-        a prospective employer.
+        a prospective employer or a prospective colleague.
         - Other images in use are the company logos in the Work History section. These images provide a nice visual contrast and also a 
         more pleasant and better spaced format to the section. As the section contains a lot of text, the images are used to break up the 
         text, in such a way that clearly indicates to first time and frequent users alike, when one part of the Work History section has 
         begun, and another one has ended. They also serve an informative purpose for those users of the site who may recognise, or be 
-        familiar with some of the aforementioned comapanies. This, of course, works better for some comapnies than for others. For instance: 
-        One of the first comapnies mentioned, [Phoenix Architetural Salvage Ltd.](http://www.phoenixsalvage.ie/) is a small, niche company with 
+        familiar with some of the aforementioned companies. This, of course, works better for some companies than for others. For instance: 
+        One of the first companies mentioned, [Phoenix Architectural Salvage Ltd.](http://www.phoenixsalvage.ie/) is a small, niche company with 
         a fairly generic company logo, making it unlikely to be recognised by users. Other companies however, such as 
         [Supermacs](https://supermacs.ie/) or [English First](https://www.englishfirst.com/), are large-scale, multi-national corporations, 
         that prospective employers may recognise from thier logos alone. 
         - The Projects section of the website also has a plethora of images in use. However, it is important to note that these images do 
         not show up on all devices. These images only show up for those using laptops, desktops and larger screens. The decision was made
-        to hide these images on smaller screens, as they took up far too much valuable screen space. In addition, their visaully striking nature, 
+        to hide these images on smaller screens, as they took up far too much valuable screen space. In addition, their visually striking nature, 
         gave a bombardment of visual images that led to a very poor user experience. Instead of the aforementioned images, a large, clickable link
         replaces the title of the project on both mobile and tablet. This link uses the colours associated with the project as a background, with 
         a copacetic, bi-colour, gradient effect. The way that the issue of a potential, visual overload was handled on larger screens, was to make 
@@ -142,7 +142,7 @@ This is a personal website advertising the skills and availability for work of M
 1. [Bootstrap v5.0:](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
     - Bootstrap was used to assist with the responsiveness and styling of the website.
 1. [Hover.css:](https://ianlunn.github.io/Hover/)
-    - Hover.css was used on the 4 different buttons on the navbar on desktopsand larger screens.
+    - Hover.css was used on the 4 different buttons on the navbar on desktops and larger screens.
 1. [Google Fonts:](https://fonts.google.com/)
     - Google Fonts were used to import the 'Shippori Mincho', 'Montserrat' and 'Parisienne' fonts into the style.css file which are used on 
     all pages throughout the project. 
@@ -152,7 +152,7 @@ This is a personal website advertising the skills and availability for work of M
 1. [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
 1. [Git](https://git-scm.com/)
-    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and push to GitHub.
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
 1.  [Microsoft Paint:](https://support.microsoft.com/en-us/windows/get-microsoft-paint-a6b9578c-ed1c-5b09-0699-4ed8115f9aa9)
