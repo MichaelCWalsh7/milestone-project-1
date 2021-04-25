@@ -1,4 +1,5 @@
 /* ================================GRID CODE FOR A STICKY FOOTER & NO HORIZONTAL SCROLL */
+/* Some of this code was taken from css-tricks.com. For more information on which and why, please consult the README. */
 
 html {
   height: 100%;
@@ -78,10 +79,6 @@ body {
 .shippori-mincho {
     font-family: 'Shippori Mincho', serif;
 }
-
-
-
-
 
 
 
@@ -301,9 +298,6 @@ a:hover {
 
 
 
-
-
-
 /* ===========================Currently================================= */
 
 #currentlyContainer {
@@ -339,7 +333,6 @@ a:hover {
     text-align: center;
     padding-right: 18%;
 }
-
 
 
 
