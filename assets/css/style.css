@@ -504,8 +504,6 @@ a:hover {
 }
 
 .info-section p {
-    background-color: darkgray;
-    color: #000000;
     text-align: center;
     font-size: 1.2em;
     width: 100%;
@@ -519,26 +517,16 @@ a:hover {
 
 
  #newsletterList {
-    background-color: darkgray;
-    color: #000000;
     text-align: center;
     font-size: 1.2em;
-    width: 95%;
-    margin: 0 auto;
  }
 
- #newsletterList p {
-     padding: 0;
- }
+
  
  #newsletterList span {
      display: block;
  }
 
-
-#newsletterList i {
-    color: purple;
-}
 
 
 
@@ -668,9 +656,15 @@ a:hover {
         background-color: rgba(0, 10, 209, 0.2);
     }
 
-    #collabInfo h1, #employInfo h1 {
+    #collabInfo h1 {
         padding-top: 0;
+        padding-bottom: 40px;
     }
+
+     #employInfo h1 {
+         padding-top: 10%;
+         padding-bottom: 30px;
+     }
 
     .project-suggestions {
         text-align: center;
@@ -680,6 +674,12 @@ a:hover {
     .project-description {
         margin-left: 15px;
         margin-right: 15px;
+    }
+
+    .info-section p {
+        background: rgba(71, 71, 71, .8);
+        color: honeydew;
+        margin-bottom: 55px;
     }
 
 }
@@ -695,10 +695,6 @@ a:hover {
     .project-title {
         margin-left: 5px;
         margin-right: 5px;
-    }
-
-    .contact-section {
-        margin-top: 50px;        
     }
 
     #employerSection {
