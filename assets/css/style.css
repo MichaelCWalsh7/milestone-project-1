@@ -391,6 +391,8 @@ a:hover {
     text-align: center;
 }
 
+
+
 .project-section, .project-item {
     padding-right: 0;
 }
@@ -403,7 +405,7 @@ a:hover {
     font-size: 1.5em;
 }
 
-#writingSection .col-12 h1 {
+#writingSection .col-12 h2 {
     padding-top: 35px;
     padding-bottom: 35px;
 }
@@ -421,6 +423,8 @@ a:hover {
 #projectsHeading {
     padding-top: 20px;
 }
+
+
 
 
 /* ===========================Individual Projects================================= */
@@ -673,6 +677,11 @@ a:hover {
         font-size: 1.5em;
     }
 
+    .project-description {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
 }
 
 /* Mobile Only */
@@ -681,6 +690,11 @@ a:hover {
 @media (max-width: 576px) {
     .project-text-content {
         font-size: 1.1em;
+    }
+
+    .project-title {
+        margin-left: 5px;
+        margin-right: 5px;
     }
 
     .contact-section {
@@ -715,11 +729,17 @@ a:hover {
 
     .project-image a img {
         height: 400px;
+        width: 75%;
     }
 
     .project-description, .project-suggestions {
-        font-size: 1.8em;
+        font-size: 1.4em;
         text-align: center;
+    }
+
+    .project-description {
+        margin-left: 25px;
+        margin-right: 25px;
     }
 
     .main-title {
@@ -741,7 +761,7 @@ a:hover {
 @media(min-width: 1300px) {
     .project-image a img {
         height: 500px;
-        width: 1400px;
+        width: 75%;
     }
 
     .project-title {
@@ -772,6 +792,10 @@ a:hover {
     .project-text-content {
         font-size: 1.3em;
     }
+
+    .navbar-toggler {
+    margin-right: 25px;
+}
 }
 
 @media(max-width: 414px) {
