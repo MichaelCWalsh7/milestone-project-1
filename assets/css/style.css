@@ -778,7 +778,7 @@ a:hover {
     }
 } 
 
-/* Others */
+/* Tablet only */
 
 @media (min-width: 576px) and (max-width: 991px) {
     .job-section {
@@ -810,6 +810,9 @@ a:hover {
         font-size: 2em;
     }    
 }
+
+
+/* Others */
 
 @media(max-width: 414px) {
     .navbar-light .navbar-brand, .navbar-brand{
