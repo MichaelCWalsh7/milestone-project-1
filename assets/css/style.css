@@ -485,21 +485,23 @@ a:hover {
 }
 
 #collabInfo h1 {
-    color: #00cc00;  
-    font-size: 30px;  
+    color: #00cc00; 
     padding-top: 10%;
 }
 
 #employInfo h1 {
-    color: rgba(0, 10, 209, 1);
-    font-size: 30px;  
+    color: rgba(0, 10, 209, 1); 
     padding-top: 10%;
 }
 
 #newsletterInfo h1 {
-    color: #960018;
-    font-size: 30px;  
+    color: #960018; 
     padding: 7% 30px 30px 30px;
+}
+
+#collabInfo h1, #employInfo h1, #newsletterInfo h1 {
+    font-family: 'Montserrat', sans-serif;      
+    font-size: 30px; 
 }
 
 .info-section p {
