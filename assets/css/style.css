@@ -614,7 +614,7 @@ a:hover {
 
 @media(max-width: 992px) {
     
-     .hero-image-container{
+    .hero-image-container{
     background: url("../images/hero-images/sunny-cropped.png") no-repeat top;
     height: 75vh;
     
@@ -663,8 +663,12 @@ a:hover {
     }
 
      #employInfo h1 {
-         padding-top: 36px;
-         padding-bottom: 30px;
+        padding-top: 36px;
+        padding-bottom: 30px;
+     }
+
+     #employInfo h1, #employInfo h1 {
+        border-top: 2px black solid;
      }
 
     .project-suggestions {
@@ -677,9 +681,7 @@ a:hover {
         margin-right: 15px;
     }
 
-    .info-section p {
-        background: rgba(71, 71, 71, .8);
-        color: honeydew;
+    .info-section p {        
         margin-bottom: 60px;
     }
 
@@ -704,15 +706,15 @@ a:hover {
     }
 
     .job-description p {
-    padding-left: 4px;
+        padding-left: 4px;
     }
 
     #workHistory h1 {
-    padding-top: 16px;
+        padding-top: 16px;
     }
 
     #aboutMe p {
-    padding-left: 0px
+        padding-left: 0px
     }
 
 }
@@ -721,7 +723,7 @@ a:hover {
 
 @media(min-width: 992px) {
     .job-section {
-    margin: 100px 0;
+        margin: 100px 0;
     }
 
     #projectsHeading, #writingSection .col-12 h2, #workHistory h1 {
@@ -782,7 +784,7 @@ a:hover {
 
 @media (min-width: 576px) and (max-width: 991px) {
     .job-section {
-    margin: 50px 0;
+        margin: 50px 0;
     }
 
     .project-image a img {
@@ -803,7 +805,7 @@ a:hover {
     }
 
     .navbar-toggler {
-    margin-right: 25px;
+        margin-right: 25px;
     }
     
     .home-info-container h1, #currently h1 {
@@ -820,7 +822,7 @@ a:hover {
     }
 
     .social-media-row li {
-    width: 20%;
+        width: 20%;
     }
 }
 
@@ -864,17 +866,17 @@ a:hover {
 
 
 .programmer-button:hover, .programmer-button:focus {
-     background-color: white;
+    background-color: white;
     color: #00cc00;
 }
 
  .employer-button:hover, .employer-button:focus {
-     background-color: white;
+    background-color: white;
     color: #0A89EE;
 }
 
 .newsletter-button:hover, .newsletter-button:focus {
-     background-color: white;
+    background-color: white;
     color: #F70303;
 }
 
