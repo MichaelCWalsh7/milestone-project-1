@@ -2,8 +2,19 @@
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
+    - Results: 
+        - [Home](https://michaelcwalsh7.github.io/milestone-project-1/assets/images/README-images/TESTING-images/validation/index-validation.png)
+        - [Work History](https://michaelcwalsh7.github.io/milestone-project-1/assets/images/README-images/TESTING-images/validation/work-history-validation.png)
+        - [Projects](https://michaelcwalsh7.github.io/milestone-project-1/assets/images/README-images/TESTING-images/validation/projects-validation.png)
+        - [Get in Touch](https://michaelcwalsh7.github.io/milestone-project-1/assets/images/README-images/TESTING-images/validation/get-in-touch-validation.png)
+        - [Spring Falls](https://michaelcwalsh7.github.io/milestone-project-1/assets/images/README-images/TESTING-images/validation/spring-falls-validation.png)
+        - [The King's Daughter](https://michaelcwalsh7.github.io/milestone-project-1/assets/images/README-images/TESTING-images/validation/the-kings-daughter-validation.png)
+        - [Post-Truth Funeral](https://michaelcwalsh7.github.io/milestone-project-1/assets/images/README-images/TESTING-images/validation/post-truth-funeral-validation.png)
+
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
+    - Results
+        - [Stylesheet](https://michaelcwalsh7.github.io/milestone-project-1/assets/images/README-images/TESTING-images/validation/css-validation.png)
 
 ### Testing User Stories from User Experience (UX) Section
 -   #### First Time Visitor Goals
