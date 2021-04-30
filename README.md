@@ -151,3 +151,50 @@ This is a personal website advertising the skills and availability for work of M
     - Microsoft Paint was used to  crop & resize images, as well for changing the file types of images saved from online.
 1.  [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
+
+
+## Testing
+- For the sake of brevity and concision, the documentation of all testing that has been conducted is located on a seprate file. 
+[Click anywhere on this sentence to be taken to the TESTING.md file](https://github.com/MichaelCWalsh7/milestone-project-1/blob/master/TESTING.md)
+
+## Credits
+
+### Code
+
+-   The sticky footer code came from [here.](https://css-tricks.com/couple-takes-sticky-footer/)
+
+-   [Bootstrap 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/): Bootstrap Library used throughout the project to make site responsive using the Bootstrap Grid System.
+    It was used in many different places all over the site, but in particular for the navigation bar and the modals.
+
+-   [Hover.css](https://ianlunn.github.io/Hover/) for the hover animations in the navigation bar buttons.
+
+### Content
+
+-   All content was written by the developer. Including all literary projects.
+
+
+### Media
+
+-   Most images were created by the developer.
+-   Here's a list of links to those that weren't:
+    1. [Backstage Theatre & Centre for the Arts logo, taken and cropped from their website.](https://www.backstage.ie/contact-us/)
+    2. [Spire Marketing Corporation logo, take and cropped from their Facebook page.](https://www.facebook.com/139864576063720/photos/a.150095315040646/150095318373979/?type=1&theater)
+    3. [Supermacs logo, taken and cropped from their Twitter.](https://pbs.twimg.com/profile_images/1107981892832366592/xpl-PxhO.png)
+    4. [English First logo, taken and cropped from their website.](https://d3hk6w1rfu80ox.cloudfront.net/media/uploads/listings/xztt4qshpTnk.jpg)
+-   The use of the above images clearly falls under the moniker of 'Fair Use' as put forward in Section 107 of the Copyright Act.
+
+## Inspirations
+
+- [Gary Sheng's website](http://www.garysheng.com/) for the inspiration on how to place a hero image.
+
+- [Gari Cruze's website](http://www.garicruze.com/) for inspiration on the navbar. Although in the end the navbar implemented looked very different.
+
+### Acknowledgements
+
+-   My Mentor for continuous helpful feedback.
+
+-   Tutor support at Code Institute for their support.
+
+-   The Slack community for continued feedback.
+
+-   Close friends along the way who helped test and give advice.
