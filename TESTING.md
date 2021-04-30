@@ -106,6 +106,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
 -   The website was viewed on a variety of devices such as Desktop (on various screen sizes), Laptop, iPad & other various types of tablets, iPhones 5, 6, 7 & X as well as other mobile phone types 
     including, but not limited to, Redmi, Huawei, Samsung and Sony.
+-   [Included here is a link to the projects Responsinator page](http://www.responsinator.com/?url=https%3A%2F%2Fmichaelcwalsh7.github.io%2Fmilestone-project-1%2Findex.html)
 -   A large amount of testing was done to ensure that all pages were linking correctly.
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 

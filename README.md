@@ -155,7 +155,7 @@ This is a personal website advertising the skills and availability for work of M
 
 ## Testing
 - For the sake of brevity and concision, the documentation of all testing that has been conducted is located on a seprate file. 
-[Click anywhere on this sentence to be taken to the TESTING.md file](https://github.com/MichaelCWalsh7/milestone-project-1/blob/master/TESTING.md)
+[Click anywhere on this sentence to be taken to the TESTING.md file.](https://github.com/MichaelCWalsh7/milestone-project-1/blob/master/TESTING.md)
 
 ## Credits
 
