@@ -15,6 +15,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
     - Results
         - [Stylesheet](https://michaelcwalsh7.github.io/milestone-project-1/assets/images/README-images/TESTING-images/validation/css-validation.png)
+        - These results are in the form of a picture rather than the links above as when the site is passed through the validator, it also validates the entire bootstrap library, which fails validation.
+          If needed, the css that I've written for the project can be valiated via file upload, or direct input [here.](https://jigsaw.w3.org/css-validator/)
 
 ### Testing User Stories from User Experience (UX) Section
 -   #### First Time Visitor Goals
