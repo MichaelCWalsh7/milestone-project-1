@@ -805,6 +805,10 @@ a:hover {
     .navbar-toggler {
     margin-right: 25px;
     }
+    
+    .home-info-container h1, #currently h1 {
+        font-size: 2em;
+    }    
 }
 
 @media(max-width: 414px) {
