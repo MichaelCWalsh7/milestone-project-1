@@ -330,8 +330,8 @@ a:hover {
 }
 
 #diplomaProgressBar {
-    text-align: center;
-    padding-right: 18%;
+    text-align: end;
+    padding-right: 3%;
 }
 
 
